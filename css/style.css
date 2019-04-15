@@ -1,0 +1,57 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.HeaderBlock{
+  display: table;
+  float:right;
+  width: 100%;
+  height: 967px;
+  background-image: url(../img/menuBlock.jpg);
+  background-size: 100vw 51vw;
+  background-repeat: no-repeat;
+}
+
+.menuBlock{
+  width: 100%;
+}
+
+.menu{
+  margin-top:20px; 
+  float:right;
+  font-size:17px; 
+  padding-bottom:10px;  
+}
+
+.menu a{
+  color: white;
+}
+
+.linksMenu{
+  text-shadow: 1px 1px 3px black, 0 0 2em black;
+  float:left; 
+  margin-right:40px; 
+}
+
+.logo a{
+  color:white;
+}
+
+.logo:hover a{
+  color: red;
+}
+
+.linksMenu:hover a{
+  color: red;
+}
+
+
+.logo{
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 5px black, 0 0 3em black;
+  margin-top: 255px;
+}
