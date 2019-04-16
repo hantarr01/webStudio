@@ -8,25 +8,9 @@ body{
   display: table;
   float:right;
   width: 100%;
-  height: 967px;
   background-image: url(../img/menuBlock.jpg);
-  background-size: 100vw 51vw;
+  background-size: 100vw 54vw;
   background-repeat: no-repeat;
-}
-
-.menuBlock{
-  width: 100%;
-}
-
-.menu{
-  margin-top:20px; 
-  float:right;
-  font-size:17px; 
-  padding-bottom:10px;  
-}
-
-.menu a{
-  color: white;
 }
 
 .linksMenu{
@@ -59,6 +43,10 @@ body{
 }
 
 @media (min-width: 1720px) and (max-width: 1920px) {
+  .HeaderBlock{
+  height:950px;
+}
+
 .logo{
   margin-left:42%;
   margin-top: 370px;
@@ -66,26 +54,59 @@ body{
 }
 
 @media (min-width: 1620px) and (max-width: 1720px) {
+.HeaderBlock{
+  height: 850px;
+}
+
 .logo{
   margin-left:40%;
   margin-top: 325px;
 }
 }
 
-@media (min-width: 1320px) and (max-width: 1620px) {
+@media (min-width: 1520px) and (max-width: 1620px) {
+.HeaderBlock{
+  height: 750px;
+}
+
 .logo{
   margin-left:40%;
   margin-top: 290px;
 }
+.HeaderBlock{
+  height: 745px;
+}
+}
+
+@media (min-width: 1320px) and (max-width: 1520px) {
+.HeaderBlock{
+  height: 650px;
+}
+
+.logo{
+  margin-left:40%;
+  margin-top: 290px;
+}
+.HeaderBlock{
+    height: 635px;
+  }
 }
 
 @media (min-width: 1120px) and (max-width: 1320px) {
+.HeaderBlock{
+  height: 600px;
+}
+
 .logo{
   margin-top: 250px;
 }
 }
 
 @media (min-width: 850px) and (max-width: 1120px) {
+.HeaderBlock{
+  height: 600px;
+}
+
 .logo{
   margin-left:35%;
   margin-top: 200px;
@@ -93,104 +114,92 @@ body{
 }
 
 @media (min-width: 650px) and (max-width: 850px) {
+.HeaderBlock{
+  height: 600px;
+}
+
 .logo{
   width:250px;
   font-size:40px; 
   margin-left:35%;
   margin-top: 140px;
 }
-.menu{
-  font-size:12px; 
-}
-
 }
 
 @media (min-width: 520px) and (max-width: 650px) {
+.HeaderBlock{
+     height: 550px;
+  }
+
 .logo{
   width:170px;
   font-size:30px; 
   margin-left:38%;
   margin-top: 130px;
 }
-
-.menu{
-  font-size:12px; 
-}
 }
 
 @media (min-width: 450px) and (max-width: 520px) {
+.HeaderBlock{
+     height: 550px;
+  }
+
 .logo{
   width:170px;
   font-size:27px; 
   margin-left:38%;
   margin-top: 110px;
 }
-
-.menu{
-  font-size:11px; 
 }
-}
-
 
 @media (min-width: 380px) and (max-width: 450px) {
+.HeaderBlock{
+  height: 550px;
+}
 .logo{
-  width:145px;
+  width:160px;
   font-size:27px; 
   margin-left:35%;
   margin-top: 90px;
 }
-
-.menu{
-  font-size:11px; 
 }
-}
-
 
 @media (min-width: 350px) and (max-width: 380px) {
+.HeaderBlock{
+  height: 550px;
+}
 .logo{
   width:140px;
   font-size:25px; 
   margin-left:32%;
   margin-top: 75px;
-}
-
-.menu{
-  font-size:8px; 
 }
 }
 
 @media (min-width: 300px) and (max-width: 350px) {
+.HeaderBlock{
+     height: 550px;
+  }
 .logo{
   width:140px;
   font-size:25px; 
   margin-left:32%;
   margin-top: 75px;
 }
-
-.menu{
-  width: 85%;
-  margin-left:15%; 
-  font-size:7px; 
-}
-.linksMenu{
-  margin-right:20px; 
-}
 }
 
 @media (min-width: 250px) and (max-width: 300px) {
+.HeaderBlock{
+   height: 550px;
+}
 .logo{
   width:117px;
   font-size:17px; 
-  margin-left:34%;
+  margin-left:32%;
   margin-top: 50px;
 }
-
-.menu{
-  width: 90%;
-  margin-left:10%; 
-  font-size:5px; 
-}
 .linksMenu{
+  font-size:5px; 
   margin-right:40px; 
 }
 }
