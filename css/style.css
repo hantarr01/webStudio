@@ -30,6 +30,7 @@ body{
 }
 
 .linksMenu{
+  font-family: 'Alegreya Sans SC', sans-serif;
   text-shadow: 1px 1px 3px black, 0 0 2em black;
   float:left; 
   margin-right:40px; 
@@ -37,6 +38,7 @@ body{
 
 .logo a{
   color:white;
+  text-align: center;
 }
 
 .logo:hover a{
@@ -47,11 +49,148 @@ body{
   color: red;
 }
 
-
 .logo{
+  font-size:60px; 
+  margin-left:37%; 
+  width:350px; 
   font-family: 'Righteous', cursive;
-  text-align: center;
-  color: white;
   text-shadow: 1px 1px 5px black, 0 0 3em black;
   margin-top: 255px;
+}
+
+@media (min-width: 1720px) and (max-width: 1920px) {
+.logo{
+  margin-left:42%;
+  margin-top: 370px;
+}
+}
+
+@media (min-width: 1620px) and (max-width: 1720px) {
+.logo{
+  margin-left:40%;
+  margin-top: 325px;
+}
+}
+
+@media (min-width: 1320px) and (max-width: 1620px) {
+.logo{
+  margin-left:40%;
+  margin-top: 290px;
+}
+}
+
+@media (min-width: 1120px) and (max-width: 1320px) {
+.logo{
+  margin-top: 250px;
+}
+}
+
+@media (min-width: 850px) and (max-width: 1120px) {
+.logo{
+  margin-left:35%;
+  margin-top: 200px;
+}
+}
+
+@media (min-width: 650px) and (max-width: 850px) {
+.logo{
+  width:250px;
+  font-size:40px; 
+  margin-left:35%;
+  margin-top: 140px;
+}
+.menu{
+  font-size:12px; 
+}
+
+}
+
+@media (min-width: 520px) and (max-width: 650px) {
+.logo{
+  width:170px;
+  font-size:30px; 
+  margin-left:38%;
+  margin-top: 130px;
+}
+
+.menu{
+  font-size:12px; 
+}
+}
+
+@media (min-width: 450px) and (max-width: 520px) {
+.logo{
+  width:170px;
+  font-size:27px; 
+  margin-left:38%;
+  margin-top: 110px;
+}
+
+.menu{
+  font-size:11px; 
+}
+}
+
+
+@media (min-width: 380px) and (max-width: 450px) {
+.logo{
+  width:145px;
+  font-size:27px; 
+  margin-left:35%;
+  margin-top: 90px;
+}
+
+.menu{
+  font-size:11px; 
+}
+}
+
+
+@media (min-width: 350px) and (max-width: 380px) {
+.logo{
+  width:140px;
+  font-size:25px; 
+  margin-left:32%;
+  margin-top: 75px;
+}
+
+.menu{
+  font-size:8px; 
+}
+}
+
+@media (min-width: 300px) and (max-width: 350px) {
+.logo{
+  width:140px;
+  font-size:25px; 
+  margin-left:32%;
+  margin-top: 75px;
+}
+
+.menu{
+  width: 85%;
+  margin-left:15%; 
+  font-size:7px; 
+}
+.linksMenu{
+  margin-right:20px; 
+}
+}
+
+@media (min-width: 250px) and (max-width: 300px) {
+.logo{
+  width:117px;
+  font-size:17px; 
+  margin-left:34%;
+  margin-top: 50px;
+}
+
+.menu{
+  width: 90%;
+  margin-left:10%; 
+  font-size:5px; 
+}
+.linksMenu{
+  margin-right:40px; 
+}
 }
