@@ -4,6 +4,11 @@ body{
   overflow-x: hidden;
 }
 
+.menu{
+  float: right;
+  background: rgba( 0,0,0,0.1); 
+}
+
 .HeaderBlock{
   display: table;
   float:right;
@@ -15,9 +20,13 @@ body{
 
 .linksMenu{
   font-family: 'Alegreya Sans SC', sans-serif;
-  text-shadow: 1px 1px 3px black, 0 0 2em black;
+  text-shadow: 1px 1px 3px black;
   float:left; 
   margin-right:40px; 
+}
+
+.linksMenu2 {
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 .logo a{
