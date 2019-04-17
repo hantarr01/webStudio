@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+div{
+	border:2px solid red ;
+}
+
+.menu{
+	float: right;
+	background-color: black;
+	
+}
+
+.menu a{
+	color:white;
+	font-size:140%;
+}
+
+h3{
+	color:white;
+	letter-spacing:-2px;
+}
+span{
+	color:white;
+}
+
+#portfolioblock{
+	margin:1%;
+}
+
+#portfolioblock div{
+	height: 300px;
+	margin-left: 6%;
+	margin-top: 2%; 
+}
+
+#portfolioblock div img{
+	height: 300px;
+}
+
+@media only screen and (max-width: 993px) {
+	
+	#portfolioblock div{
+	height: 300px;
+	margin-left: 9%;
+	margin-top: 2%; 
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+	
+	#portfolioblock div{
+	height: 300px;
+	margin-left: 0%;
+}
+}
