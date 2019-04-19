@@ -1,12 +1,14 @@
 @media (min-width: 1720px) and (max-width: 1920px) {
 .logo{
   margin-top: 400px;
+  margin-left:42vw;
 }
 }
 
 @media (min-width: 1620px) and (max-width: 1720px) {
 .logo{
   margin-top: 325px;
+  margin-left:42vw;
 }
 }
 
@@ -18,15 +20,15 @@
 
 @media (min-width: 1120px) and (max-width: 1365px) {
 .logo{
-  margin-left:37vw;
-  margin-top: 250px;
+  margin-left:35vw;
+  margin-top: 210px;
 }
 }
 
 @media (min-width: 850px) and (max-width: 1120px) {
 .logo{
   margin-left:34vw;
-  margin-top: 200px;
+  margin-top: 180px;
   font-size:50px; 
 }
 }
@@ -35,24 +37,31 @@
 .logo{
   width:250px;
   font-size:40px;  
-  margin-top: 140px;
-  margin-left:37vw;
+  margin-top: 110px;
+  margin-left:33vw;
 }
 .menu{
   font-size:12px; 
 }
 
+h3 span {
+  font-size:24px; 
+}
 }
 
 @media (min-width: 520px) and (max-width: 650px) {
 .logo{
   width:170px;
   font-size:30px; 
-  margin-top: 130px;
+  margin-top: 90px;
 }
 
 .menu{
   font-size:12px; 
+}
+
+h3 span {
+  font-size:20px; 
 }
 }
 
@@ -65,6 +74,10 @@
 
 .menu{
   font-size:11px; 
+}
+
+h3 span {
+  font-size:18px; 
 }
 }
 
@@ -80,6 +93,10 @@
 .menu{
   font-size:11px; 
 }
+
+h3 span {
+  font-size:10px; 
+}
 }
 
 
@@ -93,6 +110,22 @@
 
 .menu{
   font-size:8px; 
+}
+
+h3 span {
+  font-size:20px; 
+}
+
+.is-item has--img{
+   width: 100%;
+}
+
+.is-item has--content{
+  width: 100%;
+}
+
+.the-img {
+  width: 120%;
 }
 }
 
@@ -111,6 +144,10 @@
 }
 .linksMenu{
   margin-right:20px; 
+}
+
+h3 span {
+  font-size:20px; 
 }
 }
 
@@ -135,5 +172,20 @@
 }
 .linksMenu{
   margin-right:40px; 
+}
+
+h3 span {
+  font-size:20px; 
+}
+}
+
+/*media slider*/
+@media (min-width: 100px) and (max-width: 650px) {
+h3 {
+  letter-spacing: 3px;
+  line-height: 1.5;
+}
+p {
+  line-height: 1.5;
 }
 }

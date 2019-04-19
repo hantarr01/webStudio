@@ -30,7 +30,6 @@ body{
 }
 
 .linksMenu{
-  font-family: 'Alegreya Sans SC', sans-serif;
   text-shadow: 1px 1px 3px black, 0 0 2em black;
   float:left; 
   margin-right:40px; 
@@ -50,11 +49,9 @@ body{
 }
 
 .logo{
+  text-shadow: 1px 1px 5px black, 0 0 3em black;
   margin-bottom:20%; 
-  box-shadow: 0 0 100px rgba(0,0,0,0.5);
-  margin-left: 40vw;
-  border-radius:100px;
-  background: rgba(0, 0, 0, 0.6);
+  margin-left: 36vw;
   font-size:60px; 
   width:360px; 
   font-family: 'Righteous', cursive;
@@ -62,6 +59,7 @@ body{
 }
 
 .contentBlock{
+  padding:50px;
   display: table;
   background-color: #151719;
   width:100%; 
@@ -75,32 +73,13 @@ body{
 
 p {
   line-height: 1.8;
+  color:#f5f5f5;
 }
 
-h1 {
+h3 {
   letter-spacing: 10px;
-  color: #343434;
+  color:white;
   margin: 0;
-}
-
-small {
-  font-style: italic;
-  font-weight: 700;
-  margin-bottom: 0.5em;
-  display: inline-block;
-  color: #999;
-  position: relative;
-  padding-left: 3em;
-}
-small:after {
-  content: "";
-  position: absolute;
-  left: -0em;
-  top: 50%;
-  height: 4px;
-  width: 2.4em;
-  background: red;
-  transform: translateY(-50%);
 }
 
 .parent--el {
@@ -144,9 +123,6 @@ hr {
   border: none;
 }
 
-.the-img {
-  overflow: hidden;
-}
 .the-img img {
   position: relative;
   transform: translateX(100%);
@@ -160,10 +136,10 @@ hr {
   transition: all 400ms ease;
 }
 
-h1 {
+h3 {
   overflow: hidden;
 }
-h1 span {
+h3 span {
   transform: translateY(100%);
   position: relative;
   transition: all 500ms ease;
@@ -175,18 +151,6 @@ hr {
   max-width: 8em;
   transition: all 2500ms ease;
 }
-
-small {
-  transform: translateY(10px);
-  opacity: 0;
-  transition: all 100ms ease;
-}
-small:after {
-  width: 0;
-  max-width: 2.4em;
-  transition: all 1500ms ease;
-}
-
 .parent--el.is-selected .the-img {
   overflow: hidden;
 }
@@ -208,10 +172,10 @@ small:after {
 .parent--el.is-selected .is-item--inner p:nth-of-type(3) {
   transition-delay: 900ms;
 }
-.parent--el.is-selected h1 {
+.parent--el.is-selected h3 {
   overflow: hidden;
 }
-.parent--el.is-selected h1 span {
+.parent--el.is-selected h3 span {
   transform: translateY(0%);
   position: relative;
   transition-delay: 400ms;
@@ -222,14 +186,5 @@ small:after {
   max-width: 8em;
   transition-delay: 500ms;
 }
-.parent--el.is-selected small {
-  transform: translateY(0px);
-  opacity: 1;
-  transition-delay: 400ms;
-}
-.parent--el.is-selected small:after {
-  width: 100%;
-  transition-delay: 600ms;
-  max-width: 2.4em;
-}
+
 
