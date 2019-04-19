@@ -4,12 +4,15 @@ body{
   overflow-x: hidden;
 }
 
-div{
+/*div{
 	border:2px solid red ;
+}*/
+
+.container-fluid>row>div{
+	width: 50%;
 }
 
 .menu{
-	float: right;
 	background-color: black;
 	
 }
@@ -22,19 +25,32 @@ div{
 h3{
 	color:white;
 	letter-spacing:-2px;
+	margin-left: 40%;
 }
 span{
 	color:white;
+	margin-left: 40%;
 }
 
 #portfolioblock{
 	margin:1%;
+	margin-left: 3%;
+}
+
+@media only screen and (max-width: 1661px) {
+	
+	#portfolioblock {
+	margin-left: 150px;
+}
 }
 
 #portfolioblock div{
 	height: 300px;
+	width: 300px;
 	margin-left: 6%;
 	margin-top: 2%; 
+	background-image: url(../img/project4.png);
+	background-size: 100% 100%;
 }
 
 #portfolioblock div img{
@@ -58,3 +74,4 @@ span{
 	margin-left: 0%;
 }
 }
+
