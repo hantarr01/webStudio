@@ -1,14 +1,8 @@
- $(document).ready(function(){
- $('.slide').bxSlider();
- });
+var slideEl = $(".slide--parent");
 
- $('.slide').bxSlider({
-mode: 'fade',
-randomStart: true,
-controls: false,
-auto: true,
-speed: 1000,
-pause: 4000,
-pager: false,
-autoControls: false
+slideEl.flickity({
+	imagesLoaded: true,
+	wrapAround: true,
+	autoPlay: true,
+	pauseAutoPlayOnHover: false
 });
