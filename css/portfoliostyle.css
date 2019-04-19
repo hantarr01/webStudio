@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*div{
+	border:2px solid red ;
+}*/
+
+.container-fluid>row>div{
+	width: 50%;
+}
+
+.menu{
+	background-color: black;
+	
+}
+
+.menu a{
+	color:white;
+	font-size:140%;
+}
+
+h3{
+	color:white;
+	letter-spacing:-2px;
+	margin-left: 40%;
+}
+span{
+	color:white;
+	margin-left: 40%;
+}
+
+#portfolioblock{
+	margin:1%;
+	margin-left: 3%;
+}
+
+@media only screen and (max-width: 1661px) {
+	
+	#portfolioblock {
+	margin-left: 150px;
+}
+}
+
+#portfolioblock div{
+	height: 300px;
+	width: 300px;
+	margin-left: 6%;
+	margin-top: 2%; 
+	background-image: url(../img/project4.png);
+	background-size: 100% 100%;
+}
+
+#portfolioblock div img{
+	height: 300px;
+}
+
+@media only screen and (max-width: 993px) {
+	
+	#portfolioblock div{
+	height: 300px;
+	margin-left: 9%;
+	margin-top: 2%; 
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+	
+	#portfolioblock div{
+	height: 300px;
+	margin-left: 0%;
+}
+}
+
