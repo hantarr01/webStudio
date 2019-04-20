@@ -59,7 +59,7 @@ body{
 }
 
 .contentBlock{
-  padding:50px;
+  padding:70px;
   display: table;
   background-color: #151719;
   width:100%; 
@@ -187,4 +187,51 @@ hr {
   transition-delay: 500ms;
 }
 
+.infoBlock{
+  text-shadow: 1px 1px 1px #18171c;
+  display: table;
+  width: 100%;
+  background-color:#232629;
+  color:white;
+}
 
+.bckgrndLi{
+  float: left;
+  margin-top:50px;
+  margin-left:30px; 
+  width:300px;
+  height:400px;
+  margin-bottom:50px; 
+  text-align: center; 
+}
+
+.hrInfo{
+  margin-left:85px;
+  margin-top:30px;
+  width: 100%;
+  height:2px;
+}
+
+h5{
+  color: #ff3333;
+  letter-spacing: 4px;
+}
+
+.headInfo{
+  width:100%;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.ourPlace{
+  color: white;
+  display: table;
+  background-color: #151719;
+  width:100%; 
+  text-align: center;
+}
+
+.map{
+  margin-top:90px;
+  margin-bottom:50px; 
+}
