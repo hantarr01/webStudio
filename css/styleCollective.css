@@ -3,6 +3,15 @@
 	padding: 0;
 	overflow-x: hidden; }
 
+/*.HeaderBlockCollective {
+  text-align: center;
+  display: table;
+  float: right;
+  width: 100%;
+  background-color: #FF99FF;
+  background-size: 100vw 65vw;
+  background-repeat: no-repeat; }*/
+
 .HeaderBlock h4 {
 	position: absolute;
 	float: left;
