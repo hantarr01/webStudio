@@ -212,15 +212,17 @@ hr {
   height:2px;
 }
 
-h5{
+.liHeadText{
   color: #ff3333;
   letter-spacing: 4px;
+  font-size: 25px;
 }
 
 .headInfo{
   width:100%;
   text-align: center;
   letter-spacing: 2px;
+  font-size: 32px;
 }
 
 .ourPlace{
