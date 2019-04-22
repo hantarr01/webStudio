@@ -20,3 +20,8 @@
   	text-shadow: 1px 1px 3px black, 0 0 2em black;
   	text-align: center;
   	margin-right: 10px; }
+
+.card-content p {
+	color: black;
+}
+
