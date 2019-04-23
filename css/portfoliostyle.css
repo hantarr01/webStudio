@@ -19,16 +19,32 @@ body{
 	font-size:140%;
 }
 
-h3{
-	color:white;
-	letter-spacing:-2px;
-	margin-left: 40%;
-}
-span{
-	color:white;
-	margin-left: 40%;
+.menu-min{
+	display: none;
 }
 
+#menu-min{
+	margin-top: 14%;
+}
+
+#menu-min ul li{
+	text-align: center;
+}
+
+#text{
+	width: 100%;
+}
+
+#text h3{
+	color:white;
+	letter-spacing:-2px;
+	text-align: center;
+}
+
+#text p{
+	color:white;
+	text-align: center;
+}
 
 #portfolioblock div{
 	height: 300px;
@@ -184,7 +200,7 @@ span{
 	#portfolioblock div{
 	height: 300px;
 	width: 300px;
-	margin: 9px 14% auto;
+	margin: 9px 14.5% auto;
 }
 }
 
@@ -225,7 +241,7 @@ span{
 	#portfolioblock div{
 	height: 250px;
 	width: 250px;
-	margin: 9px 8% auto;
+	margin: 9px 11% auto;
 }
 }
 
