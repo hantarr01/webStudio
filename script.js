@@ -3,6 +3,6 @@ var slideEl = $(".slide--parent");
 slideEl.flickity({
 	imagesLoaded: true,
 	wrapAround: true,
-	autoPlay: 9000,
-	pauseAutoPlayOnHover: false
+	autoPlay: 8000,
+	prevNextButtons:false,
 });

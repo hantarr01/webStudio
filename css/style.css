@@ -76,10 +76,12 @@ p {
   color:#f5f5f5;
 }
 
-h3 {
+span {
   letter-spacing: 10px;
   color:white;
   margin: 0;
+  font-size: 45px;
+  margin-bottom:55px;  
 }
 
 .parent--el {
@@ -136,14 +138,12 @@ hr {
   transition: all 400ms ease;
 }
 
-h3 {
-  overflow: hidden;
-}
-h3 span {
+ span {
   transform: translateY(100%);
   position: relative;
   transition: all 500ms ease;
   display: inline-block;
+  overflow: hidden;
 }
 
 hr {
@@ -172,14 +172,14 @@ hr {
 .parent--el.is-selected .is-item--inner p:nth-of-type(3) {
   transition-delay: 900ms;
 }
-.parent--el.is-selected h3 {
-  overflow: hidden;
+
 }
-.parent--el.is-selected h3 span {
+.parent--el.is-selected  span {
   transform: translateY(0%);
   position: relative;
   transition-delay: 400ms;
   display: inline-block;
+  overflow: hidden;
 }
 .parent--el.is-selected hr {
   width: 100%;
@@ -225,15 +225,14 @@ hr {
   font-size: 32px;
 }
 
-.ourPlace{
+footer{
   color: white;
-  display: table;
+  display: flex;
   background-color: #151719;
   width:100%; 
   text-align: center;
 }
 
-.map{
-  margin-top:90px;
-  margin-bottom:50px; 
+.infoBlockFooter{
+  
 }

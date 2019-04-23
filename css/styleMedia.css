@@ -11,6 +11,11 @@
 .bckgrndLi{
   margin-left:125px;  
 }
+
+span {
+  font-size: 60px;
+  margin-bottom:80px;  
+}
 }
 
 @media (min-width: 1620px) and (max-width: 1719px) {
@@ -22,6 +27,15 @@
 .bckgrndLi{
   margin-left:86px;  
 }
+
+.liHeadText{
+  font-size:22px;
+}
+
+span {
+  font-size: 50px;
+  margin-bottom:70px;  
+}
 }
 
 @media (min-width: 1367px) and (max-width: 1620px) {
@@ -31,6 +45,10 @@
 
 .bckgrndLi{ 
   width:270px;
+}
+
+.liHeadText{
+  font-size:20px;
 }
 }
 
@@ -52,11 +70,31 @@
   margin-left:35vw;
   margin-top: 210px;
 }
+}
 
+@media (min-width: 1250px) and (max-width: 1365px) {
 .bckgrndLi{
-  margin-left:16%; 
+  margin-left:2%; 
   margin-top:20px;
   margin-bottom:0px;
+  width:270px;
+}
+
+.liHeadText{
+  font-size:22px;
+}
+}
+
+@media (min-width: 1120px) and (max-width: 1249px) {
+.bckgrndLi{
+  margin-left:2%; 
+  margin-top:20px;
+  margin-bottom:0px;
+  width:270px;
+}
+
+.liHeadText{
+  font-size:22px;
 }
 }
 
@@ -72,6 +110,11 @@
   margin-top:20px;
   margin-bottom:0px;
 }
+
+span {
+  font-size: 35px;
+  margin-bottom:40px;  
+}
 }
 
 @media (min-width: 650px) and (max-width: 850px) {
@@ -84,10 +127,6 @@
 .menu{
   font-size:12px; 
 }
-
-h3 span {
-  font-size:30px; 
-}
 }
 
 @media (min-width: 750px) and (max-width: 850px) {
@@ -95,6 +134,11 @@ h3 span {
   margin-left:8%; 
   margin-top:20px;
   margin-bottom:0px;
+}
+
+span {
+  font-size: 25px;
+  margin-bottom:30px;  
 }
 }
 
@@ -118,14 +162,15 @@ h3 span {
   font-size:13px; 
 }
 
-h3 span {
-  font-size:28px; 
-}
-
 .bckgrndLi{
   margin-left:22.5%;
   margin-top:10px;
   margin-bottom:10px;
+}
+
+span {
+  font-size: 22px;
+  margin-bottom:30px;  
 }
 }
 
@@ -147,9 +192,15 @@ h3 span {
 .liText{
   font-size:13px;
 }
+
+span {
+  font-size: 26px;
+  margin-bottom:70px; 
+  margin-top:-85px; 
+}
 }
 
-@media (min-width: 200px) and (max-width: 650px) {
+@media (min-width: 200px) and (max-width: 649px) {
 .bckgrndLi{
   margin-bottom:0px;
   height:250px;
@@ -165,8 +216,21 @@ h3 span {
 }
 
 .liText{
-  font-size:12px;
+  font-size:10px;
 }
+
+.is-item--inner p {
+  font-size: 10px;
+}
+
+.contentBlock{
+  padding:20px;
+}
+
+span{
+  letter-spacing: 5px;
+}
+
 }
 
 @media (min-width: 450px) and (max-width: 520px) {
@@ -180,8 +244,10 @@ h3 span {
   font-size:12px; 
 }
 
-h3 span {
-  font-size:27px; 
+span {
+  font-size: 20px;
+  margin-bottom:50px;  
+  margin-top:-70px; 
 }
 
 .bckgrndLi{
@@ -204,8 +270,10 @@ h3 span {
   font-size:12px; 
 }
 
-h3 span {
-  font-size:16px; 
+span {
+  font-size: 18px;
+  margin-bottom:45px;  
+  margin-top:-60px; 
 }
 
 .bckgrndLi{
@@ -228,9 +296,12 @@ h3 span {
   font-size:11px; 
 }
 
-h3 span {
-  font-size:15px; 
+span {
+  font-size: 15px;
+  margin-bottom:50px;  
+  margin-top:-40px; 
 }
+
 
 .bckgrndLi{
   margin-left:8%;
@@ -256,8 +327,11 @@ h3 span {
   margin-right:20px; 
 }
 
-h3 span {
-  font-size:10px; 
+span {
+  font-size: 13px;
+  margin-bottom:30px; 
+  margin-top:-20px; 
+  letter-spacing: 2px;
 }
 
 .bckgrndLi{
