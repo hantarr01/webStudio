@@ -265,6 +265,7 @@ hr {
 }
 
 .submitFooter{
+  cursor: pointer;
   margin-top:10px; 
   width:90px;
   height: 30px;
