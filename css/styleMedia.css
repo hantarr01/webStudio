@@ -87,14 +87,14 @@ span {
 
 @media (min-width: 1120px) and (max-width: 1249px) {
 .bckgrndLi{
-  margin-left:2%; 
+  margin-left:1.9%; 
   margin-top:20px;
   margin-bottom:0px;
-  width:270px;
+  width:260px;
 }
 
 .liHeadText{
-  font-size:22px;
+  font-size:20px;
 }
 }
 
