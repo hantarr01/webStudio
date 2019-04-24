@@ -1,3 +1,4 @@
+
 	$(document).ready(function(){
     $('.sidenav').sidenav();
   });
@@ -13,3 +14,13 @@ if ($(window).width() < 700) {
 } else {
 	console.log('false');
 }
+
+var slideEl = $(".slide--parent");
+
+slideEl.flickity({
+	imagesLoaded: true,
+	wrapAround: true,
+	autoPlay: 8000,
+	prevNextButtons:false,
+});
+

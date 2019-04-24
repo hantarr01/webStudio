@@ -1,0 +1,34 @@
+@media (min-width: 200px) and (max-width: 649px) {
+
+#letSpaceHeadingFooter{
+	font-size:20px; 
+}	
+
+.letSpace{
+	font-size:10px;
+}
+
+.lineHeightFooter{
+	font-size:10px;
+}
+
+.formFooter,
+.formFooterTextarea,
+.menuFooter,{
+	font-size:11px;
+}
+
+.submitFooter{
+	width:80px;
+  	height: 25px;
+	font-size:11px;
+}
+
+#padding{
+  margin-bottom:20px; 
+}
+
+.footer-copyright{
+	font-size:10px;	
+}
+}
