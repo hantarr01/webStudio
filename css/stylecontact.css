@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.menu{
+	width:100%;
+	display: table;
+}
+
+.menu-buttons{
+	width:100vw;
+	height:50vw;
+	background-image: url(../img/contact.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-top: -37px;
+}
+.menu-buttons h2{
+	text-align: center;
+	margin-top: 25%;
+	color:white;
+	font-family: 'Alegreya', sans-serif;
+	text-shadow: 1px 1px 3px black, 0 0 5em black;
+}
+.menu-buttons h2:hover{
+	text-shadow: 2px 2px 4px black, 0 0 6em black;
+}
+
+.menubt li,a{
+	float:right;
+	margin-right: 3%;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color:white;
+	text-shadow: 1px 1px 3px black, 0 0 5em black;
+	letter-spacing: 2px;
+	font-size: 20px;
+	
+}
+
+.menubt li,a:hover{
+	color:red;
+	text-shadow: 1px 1px 3px #3f3f3f, 0 0 5em #3f3f3f;
+}
+
+.menubt a{
+	color:inherit;
+	text-decoration: none;
+}
+
+.contact{
+	width: 100%;
+	display: table;
+}
+
+.contact-form-left{
+	width:300px;
+	height:200px;
+	border-right: 1px solid black;
+	margin-left: 34%;
+}
+.contact h4{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color:black;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.contact-form-left h6{
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-size: 18px;
+	margin-top: -15px;
+}
+.contact-form-right{
+	width:300px;
+	height:200px;
+	float:right;
+	margin-top: -200px;
+	margin-right: 34%;
+}
+.contact-form-right input{
+	width:100px;
+	margin-top: 25px;
+}
+
+.contact-form-right textarea{
+	width:300px;
+	margin-top: 5px;
+}
+
+
