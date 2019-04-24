@@ -4,6 +4,8 @@ body{
   overflow-x: hidden;
 }
 
+/*////////////////////////// HEADER started //////////////////////////////*/
+
 .HeaderBlock{
   text-align: center;
   display: table;
@@ -14,6 +16,7 @@ body{
   background-repeat: no-repeat;
 }
 
+/*////////////////////////// MENU started //////////////////////////////*/
 .menuBlock{
   width: 100%;
 }
@@ -25,16 +28,21 @@ body{
   padding-bottom:10px;  
 }
 
+.linksMenu:hover a{
+  color: red;
+}
+
 .menu a{
   color: white;
 }
 
 .linksMenu{
-  font-family: 'Alegreya Sans SC', sans-serif;
   text-shadow: 1px 1px 3px black, 0 0 2em black;
   float:left; 
   margin-right:40px; 
 }
+
+/*////////////////////////// MENU stoped //////////////////////////////*/
 
 .logo a{
   color:white;
@@ -44,24 +52,24 @@ body{
 .logo:hover a{
   color: red;
 }
-
-.linksMenu:hover a{
-  color: red;
-}
-
 .logo{
+  text-shadow: 1px 1px 5px black, 0 0 3em black;
   margin-bottom:20%; 
-  box-shadow: 0 0 100px rgba(0,0,0,0.5);
-  margin-left: 40vw;
-  border-radius:100px;
-  background: rgba(0, 0, 0, 0.6);
+  margin-left: 36vw;
   font-size:60px; 
   width:360px; 
   font-family: 'Righteous', cursive;
   margin-top: 255px;
 }
 
+
+/*////////////////////////// HEADER stoped //////////////////////////////*/
+
+
+/*///////////////////////////// CONTENT /////////////////////////////////*/
+
 .contentBlock{
+  padding:70px;
   display: table;
   background-color: #151719;
   width:100%; 
@@ -75,32 +83,15 @@ body{
 
 p {
   line-height: 1.8;
+  color:#f5f5f5;
 }
 
-h1 {
+span {
   letter-spacing: 10px;
-  color: #343434;
+  color:white;
   margin: 0;
-}
-
-small {
-  font-style: italic;
-  font-weight: 700;
-  margin-bottom: 0.5em;
-  display: inline-block;
-  color: #999;
-  position: relative;
-  padding-left: 3em;
-}
-small:after {
-  content: "";
-  position: absolute;
-  left: -0em;
-  top: 50%;
-  height: 4px;
-  width: 2.4em;
-  background: red;
-  transform: translateY(-50%);
+  font-size: 45px;
+  margin-bottom:55px;  
 }
 
 .parent--el {
@@ -144,9 +135,6 @@ hr {
   border: none;
 }
 
-.the-img {
-  overflow: hidden;
-}
 .the-img img {
   position: relative;
   transform: translateX(100%);
@@ -160,14 +148,12 @@ hr {
   transition: all 400ms ease;
 }
 
-h1 {
-  overflow: hidden;
-}
-h1 span {
+ span {
   transform: translateY(100%);
   position: relative;
   transition: all 500ms ease;
   display: inline-block;
+  overflow: hidden;
 }
 
 hr {
@@ -175,18 +161,6 @@ hr {
   max-width: 8em;
   transition: all 2500ms ease;
 }
-
-small {
-  transform: translateY(10px);
-  opacity: 0;
-  transition: all 100ms ease;
-}
-small:after {
-  width: 0;
-  max-width: 2.4em;
-  transition: all 1500ms ease;
-}
-
 .parent--el.is-selected .the-img {
   overflow: hidden;
 }
@@ -208,28 +182,122 @@ small:after {
 .parent--el.is-selected .is-item--inner p:nth-of-type(3) {
   transition-delay: 900ms;
 }
-.parent--el.is-selected h1 {
-  overflow: hidden;
+
 }
-.parent--el.is-selected h1 span {
+.parent--el.is-selected  span {
   transform: translateY(0%);
   position: relative;
   transition-delay: 400ms;
   display: inline-block;
+  overflow: hidden;
 }
 .parent--el.is-selected hr {
   width: 100%;
   max-width: 8em;
   transition-delay: 500ms;
 }
-.parent--el.is-selected small {
-  transform: translateY(0px);
-  opacity: 1;
-  transition-delay: 400ms;
-}
-.parent--el.is-selected small:after {
+
+
+/*///////////////////////////// CONTENT close /////////////////////////////////*/
+
+
+/*/////////////////////////////// INFOTABLE ///////////////////////////////////*/
+
+.infoBlock{
+  text-shadow: 1px 1px 1px #18171c;
+  display: table;
   width: 100%;
-  transition-delay: 600ms;
-  max-width: 2.4em;
+  background-color:#232629;
+  color:white;
 }
 
+.bckgrndLi{
+  float: left;
+  margin-top:50px;
+  margin-left:30px; 
+  width:300px;
+  height:400px;
+  margin-bottom:50px; 
+  text-align: center; 
+}
+
+.hrInfo{
+  margin-left:85px;
+  margin-top:30px;
+  width: 100%;
+  height:2px;
+}
+
+.liHeadText{
+  color: #ff3333;
+  letter-spacing: 4px;
+  font-size: 25px;
+}
+
+.headInfo{
+  width:100%;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 32px;
+}
+
+
+/*///////////////////////////// INFOTABLE close /////////////////////////////////*/
+
+
+/*///////////////////////////////// FOOTER  /////////////////////////////////////*/
+
+
+.page-footer{
+  background-color: #151719;
+}
+
+.formFooter{
+  color: white;
+}
+
+.formFooterTextarea{
+  color: white;
+  border:1px solid white;
+  width:100%;
+  height: 100px;
+  margin-top:20px;
+}
+
+.submitFooter{
+  cursor: pointer;
+  margin-top:10px; 
+  width:90px;
+  height: 30px;
+  background-color:red;
+  color:white;
+  border: none;
+}
+
+.lineHeightFooter{
+  line-height: 0.5;
+  color:red;
+}
+
+.letSpace{
+  letter-spacing: 1px;
+}
+
+.menuFooter a{
+  color:white;
+}
+
+.menuFooter a:hover{
+  color:red;
+}
+
+#padding{
+  margin-bottom:70px; 
+}
+
+#letSpaceHeadingFooter{
+  letter-spacing: 2px;
+}
+
+
+/*///////////////////////////////// FOOTER close /////////////////////////////////////*/

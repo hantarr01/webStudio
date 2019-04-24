@@ -1,12 +1,40 @@
 @media (min-width: 1720px) and (max-width: 1920px) {
 .logo{
   margin-top: 400px;
+  margin-left:42vw;
+}
+.contentBlock{
+  height:1080px;
+  padding:250px;
+}
+
+.bckgrndLi{
+  margin-left:125px;  
+}
+
+span {
+  font-size: 60px;
+  margin-bottom:80px;  
 }
 }
 
-@media (min-width: 1620px) and (max-width: 1720px) {
+@media (min-width: 1620px) and (max-width: 1719px) {
 .logo{
   margin-top: 325px;
+  margin-left:42vw;
+}
+
+.bckgrndLi{
+  margin-left:86px;  
+}
+
+.liHeadText{
+  font-size:22px;
+}
+
+span {
+  font-size: 50px;
+  margin-bottom:70px;  
 }
 }
 
@@ -14,20 +42,78 @@
 .logo{
   margin-top: 320px;
 }
+
+.bckgrndLi{ 
+  width:270px;
+}
+
+.liHeadText{
+  font-size:20px;
+}
+}
+
+@media (min-width: 1500px) and (max-width: 1620px) {
+.bckgrndLi{ 
+  margin-left:7.1%;
+}
+}
+
+@media (min-width: 1367px) and (max-width: 1500px) {
+
+.bckgrndLi{
+  margin-left:5%; 
+}
 }
 
 @media (min-width: 1120px) and (max-width: 1365px) {
 .logo{
-  margin-left:37vw;
-  margin-top: 250px;
+  margin-left:35vw;
+  margin-top: 210px;
+}
+}
+
+@media (min-width: 1250px) and (max-width: 1365px) {
+.bckgrndLi{
+  margin-left:2%; 
+  margin-top:20px;
+  margin-bottom:0px;
+  width:270px;
+}
+
+.liHeadText{
+  font-size:22px;
+}
+}
+
+@media (min-width: 1120px) and (max-width: 1249px) {
+.bckgrndLi{
+  margin-left:1.9%; 
+  margin-top:20px;
+  margin-bottom:0px;
+  width:260px;
+}
+
+.liHeadText{
+  font-size:20px;
 }
 }
 
 @media (min-width: 850px) and (max-width: 1120px) {
 .logo{
   margin-left:34vw;
-  margin-top: 200px;
+  margin-top: 180px;
   font-size:50px; 
+}
+
+.bckgrndLi{
+  margin-left:13%; 
+  margin-top:20px;
+  margin-bottom:0px;
+}
+
+span {
+  font-size: 35px;
+  margin-bottom:40px;  
 }
 }
 
@@ -35,25 +121,116 @@
 .logo{
   width:250px;
   font-size:40px;  
-  margin-top: 140px;
-  margin-left:37vw;
+  margin-top: 110px;
+  margin-left:33vw;
 }
 .menu{
   font-size:12px; 
 }
+}
 
+@media (min-width: 750px) and (max-width: 850px) {
+.bckgrndLi{
+  margin-left:8%; 
+  margin-top:20px;
+  margin-bottom:0px;
+}
+
+span {
+  font-size: 25px;
+  margin-bottom:30px;  
+}
+}
+
+@media (min-width: 650px) and (max-width: 750px) {
+.bckgrndLi{
+  margin-left:3%; 
+  margin-top:10px;
+  margin-bottom:0px;
+  height:320px;
+}
 }
 
 @media (min-width: 520px) and (max-width: 650px) {
 .logo{
   width:170px;
   font-size:30px; 
-  margin-top: 130px;
+  margin-top: 90px;
 }
 
 .menu{
-  font-size:12px; 
+  font-size:13px; 
 }
+
+.bckgrndLi{
+  margin-left:22.5%;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+span {
+  font-size: 22px;
+  margin-bottom:30px;  
+}
+}
+
+@media (min-width: 650px) and (max-width: 850px) {
+.bckgrndLi{
+  margin-bottom:0px;
+  height:300px;
+}
+
+.headInfo{
+  font-size:25px;
+}
+
+.liHeadText{
+  font-size:17px;
+  letter-spacing: 1px;
+}
+
+.liText{
+  font-size:13px;
+}
+
+span {
+  font-size: 26px;
+  margin-bottom:70px; 
+  margin-top:-85px; 
+}
+}
+
+@media (min-width: 200px) and (max-width: 649px) {
+.bckgrndLi{
+  margin-bottom:0px;
+  height:250px;
+}
+
+.headInfo{
+  font-size:20px;
+}
+
+.liHeadText{
+  font-size:15px;
+  letter-spacing: 1px;
+}
+
+.liText{
+  font-size:10px;
+}
+
+.is-item--inner p {
+  font-size: 10px;
+}
+
+.contentBlock{
+  padding:20px;
+}
+
+span{
+  letter-spacing: 5px;
+}
+
 }
 
 @media (min-width: 450px) and (max-width: 520px) {
@@ -64,7 +241,19 @@
 }
 
 .menu{
-  font-size:11px; 
+  font-size:12px; 
+}
+
+span {
+  font-size: 20px;
+  margin-bottom:50px;  
+  margin-top:-70px; 
+}
+
+.bckgrndLi{
+  margin-left:17%;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 }
 
@@ -78,7 +267,19 @@
 }
 
 .menu{
-  font-size:11px; 
+  font-size:12px; 
+}
+
+span {
+  font-size: 18px;
+  margin-bottom:45px;  
+  margin-top:-60px; 
+}
+
+.bckgrndLi{
+  margin-left:10%;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 }
 
@@ -92,11 +293,24 @@
 }
 
 .menu{
-  font-size:8px; 
+  font-size:11px; 
+}
+
+span {
+  font-size: 15px;
+  margin-bottom:50px;  
+  margin-top:-40px; 
+}
+
+
+.bckgrndLi{
+  margin-left:8%;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 }
 
-@media (min-width: 300px) and (max-width: 350px) {
+@media (min-width: 300px) and (max-width: 349px) {
 .logo{
   width:200px;
   margin-left:20vw; 
@@ -111,6 +325,19 @@
 }
 .linksMenu{
   margin-right:20px; 
+}
+
+span {
+  font-size: 13px;
+  margin-bottom:30px; 
+  margin-top:-20px; 
+  letter-spacing: 2px;
+}
+
+.bckgrndLi{
+  margin-left:0;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 }
 
@@ -135,5 +362,26 @@
 }
 .linksMenu{
   margin-right:40px; 
+}
+
+h3 span {
+  font-size:10px; 
+}
+
+.bckgrndLi{
+  margin-left:0;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+}
+
+/*media slider*/
+@media (min-width: 100px) and (max-width: 650px) {
+h3 {
+  letter-spacing: 3px;
+  line-height: 1.5;
+}
+p {
+  line-height: 1.5;
 }
 }
