@@ -28,7 +28,7 @@ body{
 	text-shadow: 2px 2px 4px black, 0 0 6em black;
 }
 
-.menubt li,a{
+.menu-button{
 	float:right;
 	margin-right: 3%;
 	font-family: 'Alegreya Sans SC', sans-serif;
@@ -39,12 +39,12 @@ body{
 	
 }
 
-.menubt li,a:hover{
+.menu-button:hover{
 	color:red;
 	text-shadow: 1px 1px 3px #3f3f3f, 0 0 5em #3f3f3f;
 }
 
-.menubt a{
+.menu-button a{
 	color:inherit;
 	text-decoration: none;
 }
@@ -88,5 +88,55 @@ body{
 	width:300px;
 	margin-top: 5px;
 }
+/*Футер*/
+.page-footer{
+  margin-top: 50px;
+  background-color: #151719;
+}
 
+.formFooter{
+  color: white;
+}
 
+.formFooterTextarea{
+  color: white;
+  border:1px solid white;
+  width:100%;
+  height: 100px;
+  margin-top:20px;
+}
+
+.submitFooter{
+  cursor: pointer;
+  margin-top:10px; 
+  width:90px;
+  height: 30px;
+  background-color:red;
+  color:white;
+  border: none;
+}
+
+.lineHeightFooter{
+  line-height: 0.5;
+  color:red;
+}
+
+.letSpace{
+  letter-spacing: 1px;
+}
+
+.menuFooter a{
+  color:white;
+}
+
+.menuFooter a:hover{
+  color:red;
+}
+
+#padding{
+  margin-bottom:70px; 
+}
+
+#letSpaceHeadingFooter{
+  letter-spacing: 2px;
+}
