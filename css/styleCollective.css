@@ -33,7 +33,17 @@
   	margin-left: 910px;
   	margin-top: 425px; }
 
-#portfolioblock div {
+/* 
+
+@media screen and (min-width: 601px) {
+  div.photocard {
+    font-size: 80px;
+  }
+} 
+
+*/
+
+#portfolioblock div{
 	height: 300px;
 	width: 300px;
 	background-image: url(../img/project4.png);
@@ -41,7 +51,8 @@
 	margin: 9px 3% 0%;
 	-moz-transition: all 0.7s ease-out;
 	-o-transition: all 0.7s ease-out;
-	-webkit-transition: all 0.7s ease-out; } 
+	-webkit-transition: all 0.7s ease-out;
+ } 
 
 @media only screen and (max-width:1584px){
 	#portfolioblock div{
