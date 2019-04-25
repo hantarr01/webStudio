@@ -28,7 +28,7 @@ body{
 	text-shadow: 2px 2px 4px black, 0 0 6em black;
 }
 
-.menubt li,a{
+.menu-button{
 	float:right;
 	margin-right: 3%;
 	font-family: 'Alegreya Sans SC', sans-serif;
@@ -39,12 +39,12 @@ body{
 	
 }
 
-.menubt li,a:hover{
+.menu-button:hover{
 	color:red;
 	text-shadow: 1px 1px 3px #3f3f3f, 0 0 5em #3f3f3f;
 }
 
-.menubt a{
+.menu-button a{
 	color:inherit;
 	text-decoration: none;
 }
