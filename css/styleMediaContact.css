@@ -6,7 +6,7 @@
   font-size: 20px;
   font-family: 'Alegreya', sans-serif;
 }
-.menubt li,a{
+.menu-button{
   float:right;
   margin-right: 5%;
   font-family: 'Alegreya Sans', sans-serif;
@@ -182,7 +182,7 @@
 .contact-form-right textarea{
   width:210px;
 }
-.menubt li,a{
+.menu-button{
   float:right;
   margin-right: 15%;
   font-family: 'Alegreya Sans', sans-serif;
@@ -210,7 +210,7 @@
 .contact-form-right textarea{
   width:170px;
 }
-.menubt li,a{
+.menu-button{
   float:right;
   margin-right: 15%;
   font-family: 'Alegreya Sans', sans-serif;
@@ -244,7 +244,7 @@
 .contact-form-right textarea{
   width:340px;
 }
-.menubt li,a{
+.menu-button{
   float:right;
   margin-right: 15%;
   font-family: 'Alegreya Sans', sans-serif;
@@ -279,7 +279,7 @@
 .contact-form-right textarea{
   width:340px;
 }
-.menubt li,a{
+.menu-button{
   float:right;
   margin-right: 5%;
   font-family: 'Alegreya Sans', sans-serif;
@@ -314,7 +314,7 @@
 .contact-form-right textarea{
   width:340px;
 }
-.menubt li,a{
+.menu-button{
   float:right;
   margin-right: 5%;
   font-family: 'Alegreya Sans', sans-serif;
