@@ -30,6 +30,7 @@ body{
 
 .linksMenu:hover a{
   color: red;
+  transition: 0.5s;
 }
 
 .menu a{
@@ -40,6 +41,7 @@ body{
   text-shadow: 1px 1px 3px black, 0 0 2em black;
   float:left; 
   margin-right:40px; 
+  transition: 0.5s;
 }
 
 /*////////////////////////// MENU stoped //////////////////////////////*/
@@ -47,10 +49,12 @@ body{
 .logo a{
   color:white;
   text-align: center;
+  transition: 0.5s;
 }
 
 .logo:hover a{
   color: red;
+  transition: 0.5s;
 }
 .logo{
   text-shadow: 1px 1px 5px black, 0 0 3em black;
@@ -285,10 +289,12 @@ hr {
 
 .menuFooter a{
   color:white;
+  transition: 0.5s;
 }
 
 .menuFooter a:hover{
   color:red;
+  transition: 0.5s;
 }
 
 #padding{
