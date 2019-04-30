@@ -10,6 +10,8 @@
 	<link href="css/style.css" rel="stylesheet" type="text/css"> 
 	<link rel="stylesheet" href="css/portfoliostyle.css">
 	<link rel="stylesheet" type="text/css" media="all" href="css/stellarnav.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="css/styleMediaFooter.css" rel="stylesheet" type="text/css">
 
 	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Oxygen" rel="stylesheet"> 
@@ -18,41 +20,129 @@
 
  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 
-	<title>Sereznie dela</title>
+	<title>Ser'eznie dela</title>
 </head>
 <body style="background-color:black">
 <div class="container-fluid">
-	<div style="height: 100px; width: 100px; position: absolute">
-		<h1 style="color:white">2PC</h1>
+	<div style="height: 100px; width: 100px; position: absolute;">
+		<h1 style="color:white; text-align: center; margin: 0">2PC</h1>
 	</div>
-	<div class="row">
+	<div class="row" id="menu">
 		<div class="nav-wrapper">
     	<div class="menu">
       		<ul id="nav-mobile">
       			<li class="linksMenu"><a href="index.html">Главная</a></li>
-				<li class="linksMenu"><a href="">Контакты</a></li>
-				<li class="linksMenu"><a href="">Наш коллектив</a></li>
+				<li class="linksMenu"><a href="contact.html">Контакты</a></li>
+				<li class="linksMenu"><a href="collective.html">Наш коллектив</a></li>
       		</ul>
     	</div>
     	</div>
     </div>
+  <!--   <div class="row">
+    	<div class="menu-min" id="menu-min">
+      		<ul>
+      			<li style="background-color: white;"><a href="">Главная</a></li>
+				<li style="background-color: white;"><a href="">Портфолио</a></li>
+				<li style="background-color: white;"><a href="">Контакты</a></li>
+				<li style="background-color: white;"><a href="">Наш коллектив</a></li>
+      		</ul>
+    	</div>
+    </div> -->
+    <div id="text">
     <h3>Портфолио</h3>
-	<span>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text</span>
-    <div class="row" id="portfolioblock">
-    	<div class="col xl2 l3 m4 s12"></div>
-    	<div class="col xl2 l3 m4 s12"></div>
-    	<div class="col xl2 l3 m4 s12"></div>
-    	<div class="col xl2 l3 m4 s12"></div>
-    	<div class="col xl2 l3 m4 s12"></div>
-    	<div class="col xl2 l3 m4 s12"></div>
-    	<div class="col xl2 l3 m4 s12"></div>
-    	<div class="col xl2 l3 m4 s12"></div>
-    	<div class="col xl2 l3 m4 s12"></div>
-    	<div class="col xl2 l3 m4 s12"></div>
-    	<div class="col xl2 l3 m4 s12"></div>
-    	<div class="col xl2 l3 m4 s12"></div>
-    </div>
+	<p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text</p>
+	</div>
 </div>
+<div class="container-fluid">
+		<div class="row" id="portfolioblock">
+    		<div class="col xl3 l4 m6 s12"><p style="color:black">Проект №1</p></div>
+    		<div class="col xl3 l4 m6 s12"><p style="color:black">Проект №1</p></div>
+    		<div class="col xl3 l4 m6 s12"><p style="color:black">Проект №1</p></div>
+    		<div class="col xl3 l4 m6 s12"><p style="color:black">Проект №1</p></div>
+    		<div class="col xl3 l4 m6 s12"><p style="color:black">Проект №1</p></div>
+    		<div class="col xl3 l4 m6 s12"><p style="color:black">Проект №1</p></div>
+    		<div class="col xl3 l4 m6 s12"><p style="color:black">Проект №1</p></div>
+    		<div class="col xl3 l4 m6 s12"><p style="color:black">Проект №1</p></div>
+    		<div class="col xl3 l4 m6 s12"><p style="color:black">Проект №1</p></div>
+    		<div class="col xl3 l4 m6 s12"><p style="color:black">Проект №1</p></div>
+		</div>
+</div>
+
+<footer class="page-footer">
+
+    <div class="container">
+
+        <div class="row">
+
+              <div class="col l5 s12">
+
+                <h5 class="white-text" id="letSpaceHeadingFooter">Оствьте комментарий</h5>
+
+                <form class="grey-text text-lighten-4">
+                	
+                <input class="formFooter" type="email" name="" placeholder="Ваш email">
+
+                <textarea class="formFooterTextarea" placeholder="Напишите отзыв"></textarea>
+
+                <input class="submitFooter" type="submit" value="Отправить" name="">
+
+                </form>
+
+              </div>
+
+              <div class="col l5 offset-l2 s12">
+
+                <h5 class="white-text" id="letSpaceHeadingFooter">Наши контакты</h5>
+
+                <ul>
+
+                  <li><p class="letSpace">Номер нашего руководителя:<p>
+                   <p class="lineHeightFooter">8-(962)598-58-91</p>
+                  </li>
+
+                  <li><p class="letSpace">Наш адрес:</p>
+                   <p class="lineHeightFooter">г. Шумерля, ул. Некрасова, д. 62</p>
+                  </li>
+
+                  <li><p class="letSpace">Почта нашего руководителя:</p>
+                   <p class="lineHeightFooter">g16052015@mail.ru</p>
+               	  </li>
+
+                </ul>
+
+              </div>
+
+        </div>
+
+        <div class="row" id="padding">
+
+        	 <div class="col l5 offset-l7 s12">
+
+                <h5 class="white-text" id="letSpaceHeadingFooter">Быстрое меню</h5>
+                <ul>
+                  <li class="menuFooter"><a href="index.html">Главная</a></li>
+                  <li class="menuFooter"><a href="portfolio.html">Портфолио</a></li>
+				  <li class="menuFooter"><a href="contact.html">Контакты</a></li>
+				  <li class="menuFooter"><a href="collective.html">Наш коллектив</a></li>
+                </ul>
+
+              </div>
+        	
+        </div>
+
+    </div>
+
+     <div class="footer-copyright">
+
+        <div class="container">
+
+        <b>GROUP 2PC</b> © 2019 All rights reserved.
+
+        </div>
+
+     </div>
+
+</footer>
 
 
 

@@ -4,6 +4,8 @@ body{
   overflow-x: hidden;
 }
 
+/*////////////////////////// HEADER started //////////////////////////////*/
+
 .HeaderBlock{
   text-align: center;
   display: table;
@@ -14,6 +16,7 @@ body{
   background-repeat: no-repeat;
 }
 
+/*////////////////////////// MENU started //////////////////////////////*/
 .menuBlock{
   width: 100%;
 }
@@ -25,6 +28,11 @@ body{
   padding-bottom:10px;  
 }
 
+.linksMenu:hover a{
+  color: red;
+  transition: 0.5s;
+}
+
 .menu a{
   color: white;
 }
@@ -33,21 +41,21 @@ body{
   text-shadow: 1px 1px 3px black, 0 0 2em black;
   float:left; 
   margin-right:40px; 
+  transition: 0.5s;
 }
+
+/*////////////////////////// MENU stoped //////////////////////////////*/
 
 .logo a{
   color:white;
   text-align: center;
+  transition: 0.5s;
 }
 
 .logo:hover a{
   color: red;
+  transition: 0.5s;
 }
-
-.linksMenu:hover a{
-  color: red;
-}
-
 .logo{
   text-shadow: 1px 1px 5px black, 0 0 3em black;
   margin-bottom:20%; 
@@ -57,6 +65,12 @@ body{
   font-family: 'Righteous', cursive;
   margin-top: 255px;
 }
+
+
+/*////////////////////////// HEADER stoped //////////////////////////////*/
+
+
+/*///////////////////////////// CONTENT /////////////////////////////////*/
 
 .contentBlock{
   padding:70px;
@@ -76,10 +90,12 @@ p {
   color:#f5f5f5;
 }
 
-h3 {
+span {
   letter-spacing: 10px;
   color:white;
   margin: 0;
+  font-size: 45px;
+  margin-bottom:55px;  
 }
 
 .parent--el {
@@ -136,14 +152,12 @@ hr {
   transition: all 400ms ease;
 }
 
-h3 {
-  overflow: hidden;
-}
-h3 span {
+ span {
   transform: translateY(100%);
   position: relative;
   transition: all 500ms ease;
   display: inline-block;
+  overflow: hidden;
 }
 
 hr {
@@ -172,20 +186,26 @@ hr {
 .parent--el.is-selected .is-item--inner p:nth-of-type(3) {
   transition-delay: 900ms;
 }
-.parent--el.is-selected h3 {
-  overflow: hidden;
+
 }
-.parent--el.is-selected h3 span {
+.parent--el.is-selected  span {
   transform: translateY(0%);
   position: relative;
   transition-delay: 400ms;
   display: inline-block;
+  overflow: hidden;
 }
 .parent--el.is-selected hr {
   width: 100%;
   max-width: 8em;
   transition-delay: 500ms;
 }
+
+
+/*///////////////////////////// CONTENT close /////////////////////////////////*/
+
+
+/*/////////////////////////////// INFOTABLE ///////////////////////////////////*/
 
 .infoBlock{
   text-shadow: 1px 1px 1px #18171c;
@@ -212,26 +232,78 @@ hr {
   height:2px;
 }
 
-h5{
+.liHeadText{
   color: #ff3333;
   letter-spacing: 4px;
+  font-size: 25px;
 }
 
 .headInfo{
   width:100%;
   text-align: center;
   letter-spacing: 2px;
+  font-size: 32px;
 }
 
-.ourPlace{
-  color: white;
-  display: table;
+
+/*///////////////////////////// INFOTABLE close /////////////////////////////////*/
+
+
+/*///////////////////////////////// FOOTER  /////////////////////////////////////*/
+
+
+.page-footer{
   background-color: #151719;
-  width:100%; 
-  text-align: center;
 }
 
-.map{
-  margin-top:90px;
-  margin-bottom:50px; 
+.formFooter{
+  color: white;
 }
+
+.formFooterTextarea{
+  color: white;
+  border:1px solid white;
+  width:100%;
+  height: 100px;
+  margin-top:20px;
+}
+
+.submitFooter{
+  cursor: pointer;
+  margin-top:10px; 
+  width:90px;
+  height: 30px;
+  background-color:red;
+  color:white;
+  border: none;
+}
+
+.lineHeightFooter{
+  line-height: 0.5;
+  color:red;
+}
+
+.letSpace{
+  letter-spacing: 1px;
+}
+
+.menuFooter a{
+  color:white;
+  transition: 0.5s;
+}
+
+.menuFooter a:hover{
+  color:red;
+  transition: 0.5s;
+}
+
+#padding{
+  margin-bottom:70px; 
+}
+
+#letSpaceHeadingFooter{
+  letter-spacing: 2px;
+}
+
+
+/*///////////////////////////////// FOOTER close /////////////////////////////////////*/
