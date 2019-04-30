@@ -51,7 +51,7 @@ body{
 	width: 300px;
 	background-image: url(../img/project4.png);
 	background-size: 100% 100%;
-	margin: 9px 3% 0%;
+	margin: 1% 0.5%  0% 0.5%;
 	-moz-transition: all 0.7s ease-out;
 	-o-transition: all 0.7s ease-out;
 	-webkit-transition: all 0.7s ease-out;
@@ -63,197 +63,292 @@ body{
 	-o-transform: scale(1.1);
 }
 
-@media only screen and (max-width:1584px){
-	#portfolioblock div{
-	margin: 9px 2% 0%;
-}
+@media only screen and (max-width:1920px){
+#portfolioblock div{
+	margin: 1% 3% 0% 6%;
+ } 
 
 }
 
-@media only screen and (max-width:1478px){
-	#portfolioblock div{
-	margin: 9px 1% 0%;
-}
+@media only screen and (max-width:1873px){
+#portfolioblock div{
+	margin: 1% 1% 0% 2.5%;
+ } 
 
 }
 
-@media only screen and (max-width:1384px){
-	#portfolioblock div{
-	width:270px;
-	margin: 9px 1% 0%;
-}
+@media only screen and (max-width:1820px){
+#portfolioblock div{
+	margin: 1% 1% 0% 2%;
+ } 
 
 }
 
-
-@media only screen and (max-width:1247px){
-	#portfolioblock div{
-	width:300px;
-	margin: 9px 7% 0%;
-}
+@media only screen and (max-width:1760px){
+#portfolioblock div{
+	margin: 1% 1% 0% 1%;
+ } 
 
 }
 
-
-@media only screen and (max-width:1207px){
-	#portfolioblock div{
-	width:300px;
-	margin: 9px 6% 0%;
-}
+@media only screen and (max-width:1680px){
+#portfolioblock div{
+	margin: 1% 1% 0% 0.5%;
+ } 
 
 }
 
-@media only screen and (max-width:1145px){
-	#portfolioblock div{
-	width:300px;
-	margin: 9px 4% 0%;
-}
+@media only screen and (max-width:1630px){
+#portfolioblock div{
+	margin: 1% 1% 0% 4%;
+ } 
 
 }
 
-@media only screen and (max-width:1037px){
-	#portfolioblock div{
-	width:300px;
-	margin: 9px 3% 0%;
-}
-
-}
-
-@media only screen and (max-width:991px){
-	#portfolioblock div{
-	width:300px;
-	margin: 9px 6% 0%;
-}
-
-}
-
-@media only screen and (max-width:945px){
-	#portfolioblock div{
-	width:270px;
-	margin: 9px 6% 0%;
-}
-
-}
-
-@media only screen and (max-width:852px){
-	#portfolioblock div{
-	width:270px;
-	margin: 9px 5% 0%;
-}
-
-}
-
-@media only screen and (max-width:811px){
-	#portfolioblock div{
-	width:270px;
-	height: 270px;
-	margin: 9px 4% 0%;
-}
+@media only screen and (max-width:1516px){
+#portfolioblock div{
+	margin: 1% 1% 0% 3%;
+ } 
 
 }
 
 
-@media only screen and (max-width:773px){
-	#portfolioblock div{
-	width:280px;
-	height: 270px;
-	margin: 9px 2% 0%;
-}
+@media only screen and (max-width:1445px){
+#portfolioblock div{
+	margin: 1% 1% 0% 2%;
+ } 
 
 }
 
-@media only screen and (max-width:733px){
-	#portfolioblock div{
-	width:250px;
+@media only screen and (max-width:1380px){
+#portfolioblock div{
+	margin: 1% 1% 0% 1%;
+ } 
+
+}
+
+@media only screen and (max-width:1320px){
+#portfolioblock div{
+	width: 250px;
 	height: 250px;
-	margin: 9px 3% 0%;
-}
+	margin: 1% 0.5% 0% 4%;
+ } 
 
 }
 
-@media only screen and (max-width:685px){
-	#portfolioblock div{
-	width:250px;
+
+@media only screen and (max-width:1236px){
+#portfolioblock div{
+	margin: 1% 1.5% 0% 2%;
+ } 
+
+}
+
+@media only screen and (max-width:1180px){
+#portfolioblock div{
+	margin: 1% 1% 0% 1.5%;
+ } 
+
+}
+
+
+@media only screen and (max-width:1154px){
+#portfolioblock div{
+	margin: 1% 1% 0% 1%;
+ } 
+
+}
+
+@media only screen and (max-width:1101px){
+#portfolioblock div{
+	margin: 1% 1% 0% 6%;
+ } 
+
+}
+
+@media only screen and (max-width:1039px){
+#portfolioblock div{
+	margin: 1% 2% 0% 1.7%;
+ } 
+
+}
+
+@media only screen and (max-width:1039px){
+#portfolioblock div{
+	width: 250px;
 	height: 250px;
-	margin: 9px 2% 0%;
-}
+	margin: 1% 3% 0% 5%;
+ } 
 
 }
 
-@media only screen and (max-width:656px){
-	#portfolioblock div{
-	height: 300px;
+
+@media only screen and (max-width:1024px){
+#portfolioblock div{
+	width: 250px;
+	height: 250px;
+	margin: 1% 2.5% 0% 5%;
+ } 
+
+}
+
+@media only screen and (max-width:984px){
+#portfolioblock div{
+	width: 250px;
+	height: 250px;
+	margin: 1% 2.5% 0% 3%;
+ } 
+
+}
+
+@media only screen and (max-width:916px){
+#portfolioblock div{
+	width: 250px;
+	height: 250px;
+	margin: 1% 2% 0% 3%;
+ } 
+
+}
+
+@media only screen and (max-width:899px){
+#portfolioblock div{
+	width: 250px;
+	height: 250px;
+	margin: 1% 2% 0% 2%;
+ } 
+
+}
+
+@media only screen and (max-width:869px){
+#portfolioblock div{
+	width: 250px;
+	height: 250px;
+	margin: 1% 1% 0% 2%;
+ } 
+
+}
+
+@media only screen and (max-width:841px){
+#portfolioblock div{
 	width: 300px;
-	margin: 9px 20% auto;
-}
+	height: 300px;
+	margin: 1% 2% 0% 8%;
+ } 
+
 }
 
-@media only screen and (max-width:550px){
-	#portfolioblock div{
-	height: 300px;
+@media only screen and (max-width:767px){
+#portfolioblock div{
 	width: 300px;
-	margin: 9px 17% auto;
+	height: 300px;
+	margin: 1% 2% 0% 6%;
+ } 
+
 }
+
+
+@media only screen and (max-width:731px){
+#portfolioblock div{
+	width: 300px;
+	height: 300px;
+	margin: 1% 1% 0% 4%;
+ } 
+
 }
+
+
+@media only screen and (max-width:683px){
+#portfolioblock div{
+	width: 300px;
+	height: 300px;
+	margin: 1% 1% 0% 2%;
+ } 
+
+}
+
+@media only screen and (max-width:655px){
+#portfolioblock div{
+	width: 250px;
+	height: 250px;
+	margin: 1% 1% 0% 6%;
+ } 
+
+}
+
+@media only screen and (max-width:598px){
+#portfolioblock div{
+	width: 250px;
+	height: 250px;
+	margin: 1% 1% 0% 4%;
+ } 
+
+}
+
+@media only screen and (max-width:572px){
+#portfolioblock div{
+	width: 250px;
+	height: 250px;
+	margin: 1% 1% 0% 2%;
+ } 
+
+}
+
+@media only screen and (max-width:548px){
+#portfolioblock div{
+	width: 250px;
+	height: 250px;
+	margin: 1% 1% 0% 1%;
+ } 
+
+@media only screen and (max-width:538px){
+#portfolioblock div{
+	width: 300px;
+	height: 300px;
+	margin: 1% 1% 0% 18%;
+ } 
+
+
 
 @media only screen and (max-width:500px){
-	#portfolioblock div{
-	height: 300px;
-	width: 300px;
-	margin: 9px 14.5% auto;
-}
 
 .linksMenu{
 	font-size:15px;
 }
 }
 
-@media only screen and (max-width:450px){
-	#portfolioblock div{
-	height: 300px;
-	width: 300px;
-	margin: 9px 10% auto;
-}
-}
 
 
 @media only screen and (max-width:420px){
-	#portfolioblock div{
-	height: 300px;
+#portfolioblock div{
 	width: 300px;
-	margin: 9px 8% auto;
-}
+	height: 300px;
+	margin: 1% 1% 0% 13%;
+ }
 
 .linksMenu{
 	font-size:12px;
 }
 }
 
-@media only screen and (max-width:397px){
+@media only screen and (max-width:375px){
 	#portfolioblock div{
-	height: 300px;
 	width: 300px;
-	margin: 9px 5% auto;
-}
-}
+	height: 300px;
+	margin: 1% 1% 0% 11%;
+ }
 
-@media only screen and (max-width:370px){
-	#portfolioblock div{
-	height: 300px;
-	width: 300px;
-	margin: 9px 2% auto;
-}
 .linksMenu{
 	font-size:12px;
 }
 }
 
 @media only screen and (max-width:360px){
-	#portfolioblock div{
-	height: 250px;
-	width: 250px;
-	margin: 9px 11% auto;
-}
+#portfolioblock div{
+	width: 300px;
+	height: 300px;
+	margin: 1% 1% 0% 8%;
+ } 
+
 .linksMenu a{
 	font-size:15px;
 	float: left;
@@ -261,11 +356,7 @@ body{
 }
 
 @media only screen and (max-width:340px){
-	#portfolioblock div{
-	height: 250px;
-	width: 250px;
-	margin: 9px 6% auto;
-}
+
 .linksMenu a{
 	font-size:13px;
 	float: left;
@@ -273,22 +364,14 @@ body{
 }
 
 @media only screen and (max-width:317px){
-	#portfolioblock div{
-	height: 250px;
-	width: 250px;
-	margin: 9px 3% auto;
-}
+
 .linksMenu{
 	font-size:13px;
 }
 }
 
 @media only screen and (max-width:30px){
-	#portfolioblock div{
-	height: 250px;
-	width: 250px;
-	margin: 9px 0% auto;
-}
+
 .linksMenu {
 	font-size:12px;
 }
