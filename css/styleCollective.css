@@ -4,7 +4,7 @@
 
 .HeaderBlock {
    position: fixed;
-   z-index: 1000; }
+   z-index: 500; }
 
 .HeaderBlock h4 {
 	position: absolute;
