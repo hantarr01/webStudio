@@ -1,259 +1,156 @@
-* {
-	margin: 0;
-	padding: 0; }
-
-.HeaderBlock {
-   position: fixed;
-   z-index: 500; }
-
-.HeaderBlock h4 {
-	position: absolute;
-	float: left;
-	color: white;
-	margin-top: 8px;
-	margin-left: 50px; }
-
-#blockOne {
-	width: 100%;
-	background-color: white; }
-
-#blockOne h2 {
-	font-family: 'Alegreya Sans SC', sans-serif;
-  	text-shadow: 1px 1px 3px black, 0 0 2em black;
-  	text-align: center;
-  	margin-right: 10px; 
-  	margin-top: 5px; }
-
-.photocard p { 
- 	position: absolute;
- 	font-size: 35px;
-	font-family: 'Alegreya Sans SC', sans-serif;
-  	text-shadow: 1px 1px 4px black, 0 0 2em black;
-  	margin-left: 559px;
-  	margin-top: 282px; }
-
-/* 
-
-@media screen and (min-width: 601px) {
-  div.photocard {
-    font-size: 80px;
-  }
-} 
-
-*/
-
-#portfolioblock div{
-	height: 300px;
-	width: 300px;
-	background-image: url(../img/project4.png);
-	background-size: 100% 100%;
-	margin: 9px 3% 0%;
-	-moz-transition: all 0.7s ease-out;
-	-o-transition: all 0.7s ease-out;
-	-webkit-transition: all 0.7s ease-out;
- } 
-
-@media only screen and (max-width:1584px){
-	#portfolioblock div{
-	margin: 9px 2% 0%;
-}
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-@media only screen and (max-width:1478px){
-	#portfolioblock div{
-	margin: 9px 1% 0%;
+/*////////////////////////// HEADER started //////////////////////////////*/
+
+.HeaderBlock{
+  text-align: center;
+  display: table;
+  float:right;
+  width: 100%;
+  background-color: #151719;
 }
 
+/*////////////////////////// MENU started //////////////////////////////*/
+.menuBlock{
+  width: 100%;
 }
 
-@media only screen and (max-width:1384px){
-	#portfolioblock div{
-	width:270px;
-	margin: 9px 1% 0%;
+.menu{
+  margin-top:25px; 
+  float:right;
+  font-size:17px;   
 }
 
+.linksMenu:hover a{
+  color: red;
+  transition: 0.5s;
+}
+
+.menu a{
+  color: white;
+}
+
+.linksMenu{
+  text-shadow: 1px 1px 3px black, 0 0 2em black;
+  float:left; 
+  margin-right:40px; 
+  transition: 0.5s;
+}
+
+/*////////////////////////// MENU stoped //////////////////////////////*/
+
+.logo{ 
+  font-family: 'Righteous', cursive;
+  float: left;
+  color: white; 
+  margin-left:50px; 
+  margin-top:20px; 
 }
 
 
-@media only screen and (max-width:1247px){
-	#portfolioblock div{
-	width:300px;
-	margin: 9px 7% 0%;
+/*////////////////////////// HEADER stoped //////////////////////////////*/
+
+
+/*////////////////////////// CONTENT start //////////////////////////////*/
+
+.contentBlock{
+  padding-top:60px;
+  padding-left:40px;  
+  display: table;
+  background-color:#232629;
+  width:100%;
+  color:white; 
 }
 
+.infoBlock{
+  text-shadow: 1px 1px 1px #18171c;
+  display: table;
+  width: 100%;
+  background-color:#232629;
+  color:white;
 }
 
-
-@media only screen and (max-width:1207px){
-	#portfolioblock div{
-	width:300px;
-	margin: 9px 6% 0%;
+.bckgrndLi{
+  float: left;
+  margin-top:50px;
+  margin-left:30px; 
+  width:300px;
+  height:400px;
+  margin-bottom:50px; 
+  text-align: center; 
 }
 
-}
-
-@media only screen and (max-width:1145px){
-	#portfolioblock div{
-	width:300px;
-	margin: 9px 4% 0%;
-}
-
-}
-
-@media only screen and (max-width:1037px){
-	#portfolioblock div{
-	width:300px;
-	margin: 9px 3% 0%;
-}
-
-}
-
-@media only screen and (max-width:991px){
-	#portfolioblock div{
-	width:300px;
-	margin: 9px 6% 0%;
-}
-
-}
-
-@media only screen and (max-width:945px){
-	#portfolioblock div{
-	width:270px;
-	margin: 9px 6% 0%;
-}
-
-}
-
-@media only screen and (max-width:852px){
-	#portfolioblock div{
-	width:270px;
-	margin: 9px 5% 0%;
-}
-
-}
-
-@media only screen and (max-width:811px){
-	#portfolioblock div{
-	width:270px;
-	height: 270px;
-	margin: 9px 4% 0%;
-}
-
+.headInfo{
+  width:100%;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 32px;
+  margin-top:-50px; 
 }
 
 
-@media only screen and (max-width:773px){
-	#portfolioblock div{
-	width:280px;
-	height: 270px;
-	margin: 9px 2% 0%;
-}
-
-}
-
-@media only screen and (max-width:733px){
-	#portfolioblock div{
-	width:250px;
-	height: 250px;
-	margin: 9px 3% 0%;
-}
-
-}
-
-@media only screen and (max-width:685px){
-	#portfolioblock div{
-	width:250px;
-	height: 250px;
-	margin: 9px 2% 0%;
-}
-
-}
-
-@media only screen and (max-width:656px){
-	#portfolioblock div{
-	height: 300px;
-	width: 300px;
-	margin: 9px 20% auto;
-}
-}
-
-@media only screen and (max-width:550px){
-	#portfolioblock div{
-	height: 300px;
-	width: 300px;
-	margin: 9px 17% auto;
-}
-}
-
-@media only screen and (max-width:500px){
-	#portfolioblock div{
-	height: 300px;
-	width: 300px;
-	margin: 9px 14.5% auto;
-}
-}
-
-@media only screen and (max-width:450px){
-	#portfolioblock div{
-	height: 300px;
-	width: 300px;
-	margin: 9px 10% auto;
-}
-}
+/*////////////////////////// CONTENT stop //////////////////////////////*/
 
 
-@media only screen and (max-width:420px){
-	#portfolioblock div{
-	height: 300px;
-	width: 300px;
-	margin: 9px 8% auto;
-}
+/*///////////////////////////////// FOOTER  /////////////////////////////////////*/
+
+
+.page-footer{
+  background-color: #151719;
 }
 
-@media only screen and (max-width:397px){
-	#portfolioblock div{
-	height: 300px;
-	width: 300px;
-	margin: 9px 5% auto;
-}
+.formFooter{
+  color: white;
 }
 
-@media only screen and (max-width:370px){
-	#portfolioblock div{
-	height: 300px;
-	width: 300px;
-	margin: 9px 2% auto;
-}
-}
-
-@media only screen and (max-width:360px){
-	#portfolioblock div{
-	height: 250px;
-	width: 250px;
-	margin: 9px 11% auto;
-}
+.formFooterTextarea{
+  color: white;
+  border:1px solid white;
+  width:100%;
+  height: 100px;
+  margin-top:20px;
 }
 
-@media only screen and (max-width:340px){
-	#portfolioblock div{
-	height: 250px;
-	width: 250px;
-	margin: 9px 6% auto;
-}
-}
-
-@media only screen and (max-width:317px){
-	#portfolioblock div{
-	height: 250px;
-	width: 250px;
-	margin: 9px 3% auto;
-}
+.submitFooter{
+  cursor: pointer;
+  margin-top:10px; 
+  width:90px;
+  height: 30px;
+  background-color:red;
+  color:white;
+  border: none;
 }
 
-@media only screen and (max-width:30px){
-	#portfolioblock div{
-	height: 250px;
-	width: 250px;
-	margin: 9px 0% auto;
+.lineHeightFooter{
+  line-height: 0.5;
+  color:red;
 }
+
+.letSpace{
+  letter-spacing: 1px;
 }
+
+.menuFooter a{
+  color:white;
+  transition: 0.5s;
+}
+
+.menuFooter a:hover{
+  color:red;
+  transition: 0.5s;
+}
+
+#padding{
+  margin-bottom:70px; 
+}
+
+#letSpaceHeadingFooter{
+  letter-spacing: 2px;
+}
+
+
+/*///////////////////////////////// FOOTER close /////////////////////////////////////*/

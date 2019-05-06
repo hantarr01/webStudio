@@ -47,6 +47,7 @@ body{
 /*////////////////////////// MENU stoped //////////////////////////////*/
 
 .logo a{
+  letter-spacing: 2px;
   color:white;
   text-align: center;
   transition: 0.5s;
