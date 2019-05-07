@@ -47,11 +47,9 @@ body{
 }
 
 #portfolioblock div{
-	height: 300px;
-	width: 300px;
-	background-image: url(../img/project4.png);
-	background-size: 100% 100%;
-	margin: 1% 0.5%  0% 0.5%;
+/*	background-image: url(../img/project4.png);*/
+/*	background-size: 100% 100%;*/
+/*	margin: 1% 0.5%  0% 0.5%;*/
 	-moz-transition: all 0.7s ease-out;
 	-o-transition: all 0.7s ease-out;
 	-webkit-transition: all 0.7s ease-out;
@@ -63,7 +61,78 @@ body{
 	-o-transform: scale(1.1);
 }
 
-@media only screen and (max-width:1920px){
+@media only screen and (max-width:800px) and (min-width:600px){
+#portfolioblock div img{
+	margin-right: 5%;
+	width:250px;
+ } 
+
+ .linksMenu a{
+ 	font-size:20px;
+ }
+
+}
+
+@media only screen and (max-width:620px){
+  .linksMenu a{
+ 	font-size:15px;
+ }
+
+}
+
+
+@media only screen and (max-width:500px){
+  .linksMenu a{
+ 	font-size:15px;
+ }
+
+}
+
+@media only screen and (max-width:480px){
+#portfolioblock div img{
+	width:250px;
+ }
+  .linksMenu a{
+ 	font-size:20px;
+ }
+
+ .menu{
+ 	width:180px;
+ 	margin:auto;
+ 	margin-right: 20%;
+ }
+
+}
+
+@media only screen and (max-width:400px){
+#portfolioblock div img{
+	margin-left: -10%;
+	width:250px;
+ } 
+
+ .linksMenu a{
+ 	font-size:20px;
+ }
+
+ .linksMenu {
+ 	margin-left: 50%;
+ }
+
+  .menu{
+ 	margin-right: 40%;
+ }
+
+}
+
+@media only screen and (max-width:333px){
+#portfolioblock div img{
+	margin-left: -25%;
+	width:250px;
+ } 
+
+}
+
+/*@media only screen and (max-width:1920px){
 #portfolioblock div{
 	margin: 1% 3% 0% 6%;
  } 
@@ -380,3 +449,4 @@ body{
 
 
 
+*/
