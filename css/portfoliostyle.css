@@ -2,54 +2,61 @@ body{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  background-color:#232629
 }
 
-/*div{
-	border:2px solid red ;
-}*/
+/*////////////////////////// HEADER started //////////////////////////////*/
 
+.HeaderBlock{
+  text-align: center;
+  display: table;
+  float:right;
+  width: 100%;
+  background-color: #151719;
+  margin-bottom:100px; 
+}
+
+/*////////////////////////// MENU started //////////////////////////////*/
+.menuBlock{
+  width: 100%;
+}
 
 .menu{
-	background-color: black;
-	
+  margin-top:25px; 
+  float:right;
+  font-size:17px;   
+}
+
+.linksMenu:hover a{
+  color: red;
+  transition: 0.5s;
 }
 
 .menu a{
-	color:white;
-	font-size:140%;
+  color: white;
 }
 
-/*.menu-min{
-	display: none;
+.linksMenu{
+  text-shadow: 1px 1px 3px black, 0 0 2em black;
+  float:left; 
+  margin-right:40px; 
+  transition: 0.5s;
 }
 
-#menu-min{
-	margin-top: 14%;
+/*////////////////////////// MENU stoped //////////////////////////////*/
+
+.logo{ 
+  font-family: 'Righteous', cursive;
+  float: left;
+  color: white; 
+  margin-left:50px; 
+  margin-top:20px; 
 }
 
-#menu-min ul li{
-	text-align: center;
-}*/
 
-#text{
-	width: 100%;
-}
-
-#text h3{
-	color:white;
-	letter-spacing:-2px;
-	text-align: center;
-}
-
-#text p{
-	color:white;
-	text-align: center;
-}
+/*////////////////////////// HEADER stoped //////////////////////////////*/
 
 #portfolioblock div{
-/*	background-image: url(../img/project4.png);*/
-/*	background-size: 100% 100%;*/
-/*	margin: 1% 0.5%  0% 0.5%;*/
 	-moz-transition: all 0.7s ease-out;
 	-o-transition: all 0.7s ease-out;
 	-webkit-transition: all 0.7s ease-out;
@@ -61,47 +68,78 @@ body{
 	-o-transform: scale(1.1);
 }
 
+/*///////////////////////////////// FOOTER  /////////////////////////////////////*/
+
+
+.page-footer{
+  background-color: #151719;
+  margin-top:100px;
+}
+
+.formFooter{
+  color: white;
+}
+
+.formFooterTextarea{
+  color: white;
+  border:1px solid white;
+  width:100%;
+  height: 100px;
+  margin-top:20px;
+}
+
+.submitFooter{
+  cursor: pointer;
+  margin-top:10px; 
+  width:90px;
+  height: 30px;
+  background-color:red;
+  color:white;
+  border: none;
+}
+
+.lineHeightFooter{
+  line-height: 0.5;
+  color:red;
+}
+
+.letSpace{
+  letter-spacing: 1px;
+}
+
+.menuFooter a{
+  color:white;
+  transition: 0.5s;
+}
+
+.menuFooter a:hover{
+  color:red;
+  transition: 0.5s;
+}
+
+#padding{
+  margin-bottom:70px; 
+}
+
+#letSpaceHeadingFooter{
+  letter-spacing: 2px;
+}
+
+
+/*///////////////////////////////// FOOTER close /////////////////////////////////////*/
+
 @media only screen and (max-width:800px) and (min-width:600px){
 #portfolioblock div img{
 	margin-right: 5%;
 	width:250px;
  } 
-
- .linksMenu a{
- 	font-size:20px;
- }
-
 }
 
-@media only screen and (max-width:620px){
-  .linksMenu a{
- 	font-size:15px;
- }
-
-}
-
-
-@media only screen and (max-width:500px){
-  .linksMenu a{
- 	font-size:15px;
- }
-
-}
 
 @media only screen and (max-width:480px){
 #portfolioblock div img{
 	width:250px;
  }
-  .linksMenu a{
- 	font-size:20px;
- }
-
- .menu{
- 	width:180px;
- 	margin:auto;
- 	margin-right: 20%;
- }
-
 }
 
 @media only screen and (max-width:400px){
@@ -109,19 +147,6 @@ body{
 	margin-left: -10%;
 	width:250px;
  } 
-
- .linksMenu a{
- 	font-size:20px;
- }
-
- .linksMenu {
- 	margin-left: 50%;
- }
-
-  .menu{
- 	margin-right: 40%;
- }
-
 }
 
 @media only screen and (max-width:333px){
@@ -129,324 +154,386 @@ body{
 	margin-left: -25%;
 	width:250px;
  } 
-
+}
+/*///////////////////////////////////////media///////////////////////////////////////////////*/
+@media (min-width: 1720px) and (max-width: 1920px) {
+.logo{ 
+  font-size:50px; 
+}
 }
 
-/*@media only screen and (max-width:1920px){
-#portfolioblock div{
-	margin: 1% 3% 0% 6%;
- } 
-
+@media (min-width: 1620px) and (max-width: 1719px) {
+.logo{ 
+  font-size:45px; 
+}
 }
 
-@media only screen and (max-width:1873px){
-#portfolioblock div{
-	margin: 1% 1% 0% 2.5%;
- } 
-
+@media (min-width: 1500px) and (max-width: 1620px) {
+.logo{ 
+  font-size:45px; 
 }
-
-@media only screen and (max-width:1820px){
-#portfolioblock div{
-	margin: 1% 1% 0% 2%;
- } 
-
-}
-
-@media only screen and (max-width:1760px){
-#portfolioblock div{
-	margin: 1% 1% 0% 1%;
- } 
-
-}
-
-@media only screen and (max-width:1680px){
-#portfolioblock div{
-	margin: 1% 1% 0% 0.5%;
- } 
-
-}
-
-@media only screen and (max-width:1630px){
-#portfolioblock div{
-	margin: 1% 1% 0% 4%;
- } 
-
-}
-
-@media only screen and (max-width:1516px){
-#portfolioblock div{
-	margin: 1% 1% 0% 3%;
- } 
-
 }
 
 
-@media only screen and (max-width:1445px){
-#portfolioblock div{
-	margin: 1% 1% 0% 2%;
- } 
+@media (min-width: 1070px) and (max-width: 1120px) {
+.menu{
+  font-size:15px; 
+}
+
+.infoBlock{
+  padding-left:40px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
+}
+
+.headInfo{
+  font-size: 27px;
+}
 
 }
 
-@media only screen and (max-width:1380px){
-#portfolioblock div{
-	margin: 1% 1% 0% 1%;
- } 
-
+@media (min-width: 1000px) and (max-width: 1070px) {
+.menu{
+  font-size:15px; 
 }
 
-@media only screen and (max-width:1320px){
-#portfolioblock div{
-	width: 250px;
-	height: 250px;
-	margin: 1% 0.5% 0% 4%;
- } 
-
+.infoBlock{
+  padding-left:40px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
 }
 
-
-@media only screen and (max-width:1236px){
-#portfolioblock div{
-	margin: 1% 1.5% 0% 2%;
- } 
-
+.headInfo{
+  font-size: 27px;
 }
 
-@media only screen and (max-width:1180px){
-#portfolioblock div{
-	margin: 1% 1% 0% 1.5%;
- } 
-
+.bckgrndLi{
+  margin-left:20px; 
+  margin-bottom:10px; 
+  height:290px;
+  width:210px;
+}
 }
 
-
-@media only screen and (max-width:1154px){
-#portfolioblock div{
-	margin: 1% 1% 0% 1%;
- } 
-
+@media (min-width: 920px) and (max-width: 999px) {
+.menu{
+  font-size:15px; 
 }
 
-@media only screen and (max-width:1101px){
-#portfolioblock div{
-	margin: 1% 1% 0% 6%;
- } 
-
+.infoBlock{
+  padding-left:20px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
 }
 
-@media only screen and (max-width:1039px){
-#portfolioblock div{
-	margin: 1% 2% 0% 1.7%;
- } 
-
+.headInfo{
+  font-size: 27px;
 }
 
-@media only screen and (max-width:1039px){
-#portfolioblock div{
-	width: 250px;
-	height: 250px;
-	margin: 1% 3% 0% 5%;
- } 
-
+.bckgrndLi{
+  margin-left:10px; 
+  margin-bottom:10px; 
+  height:290px;
+  width:210px;
+}
 }
 
-
-@media only screen and (max-width:1024px){
-#portfolioblock div{
-	width: 250px;
-	height: 250px;
-	margin: 1% 2.5% 0% 5%;
- } 
-
+@media (min-width: 850px) and (max-width: 920px) {
+.menu{
+  font-size:15px; 
 }
 
-@media only screen and (max-width:984px){
-#portfolioblock div{
-	width: 250px;
-	height: 250px;
-	margin: 1% 2.5% 0% 3%;
- } 
-
+.infoBlock{
+  padding-left:30px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
 }
 
-@media only screen and (max-width:916px){
-#portfolioblock div{
-	width: 250px;
-	height: 250px;
-	margin: 1% 2% 0% 3%;
- } 
-
+.headInfo{
+  font-size: 27px;
 }
 
-@media only screen and (max-width:899px){
-#portfolioblock div{
-	width: 250px;
-	height: 250px;
-	margin: 1% 2% 0% 2%;
- } 
-
+.bckgrndLi{
+  height:310px;
+  width:230px;
 }
-
-@media only screen and (max-width:869px){
-#portfolioblock div{
-	width: 250px;
-	height: 250px;
-	margin: 1% 1% 0% 2%;
- } 
-
-}
-
-@media only screen and (max-width:841px){
-#portfolioblock div{
-	width: 300px;
-	height: 300px;
-	margin: 1% 2% 0% 8%;
- } 
-
-}
-
-@media only screen and (max-width:767px){
-#portfolioblock div{
-	width: 300px;
-	height: 300px;
-	margin: 1% 2% 0% 6%;
- } 
-
 }
 
 
-@media only screen and (max-width:731px){
-#portfolioblock div{
-	width: 300px;
-	height: 300px;
-	margin: 1% 1% 0% 4%;
- } 
+@media (min-width: 650px) and (max-width: 850px) {
+.menu{
+  font-size:12px; 
+}
+}
 
+@media (min-width: 750px) and (max-width: 850px) {
+
+.infoBlock{
+  padding-left:30px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
+}
+
+.headInfo{
+  font-size: 25px;
+}
+
+.bckgrndLi{
+  height:250px;
+  width:190px;
+  margin-left:30px;
+  margin-bottom:20px; 
+}
+
+.nameRaz{
+  font-size:12px; 
+}
+}
+
+@media (min-width: 651px) and (max-width: 750px) {
+
+.logo{
+  font-size: 28px;
+}
+
+.contentBlock{  
+  display: table;
+  background-color:#232629;
+  width:100%;
+  color:white; 
+}
+
+.infoBlock{
+  padding-left:30px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
+}
+
+.headInfo{
+  font-size: 20px;
+}
+
+.bckgrndLi{
+  height:220px;
+  width:160px;
+  margin-bottom:20px; 
+}
+
+.nameRaz{
+  font-size:12px; 
+}
+}
+
+@media (min-width: 520px) and (max-width: 650px) {
+.menu{
+  font-size:12px; 
+}
+
+.logo{
+  font-size: 28px;
+}
+
+.contentBlock{  
+  display: table;
+  background-color:#232629;
+  width:100%;
+  color:white; 
+}
+
+.infoBlock{
+  padding-left:35px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
+}
+
+.headInfo{
+  font-size: 20px;
+}
+
+.bckgrndLi{
+  height:200px;
+  width:140px;
+  margin-bottom:20px; 
+}
+
+.nameRaz{
+  font-size:12px; 
+}
 }
 
 
-@media only screen and (max-width:683px){
-#portfolioblock div{
-	width: 300px;
-	height: 300px;
-	margin: 1% 1% 0% 2%;
- } 
 
+@media (min-width: 450px) and (max-width: 520px) {
+
+.menu{
+  font-size:12px;
 }
 
-@media only screen and (max-width:655px){
-#portfolioblock div{
-	width: 250px;
-	height: 250px;
-	margin: 1% 1% 0% 6%;
- } 
-
+.logo{
+  font-size: 27px;
+  margin-left: 167px;
 }
 
-@media only screen and (max-width:598px){
-#portfolioblock div{
-	width: 250px;
-	height: 250px;
-	margin: 1% 1% 0% 4%;
- } 
-
+.contentBlock{  
+  display: table;
+  background-color:#232629;
+  width:100%;
+  color:white; 
 }
 
-@media only screen and (max-width:572px){
-#portfolioblock div{
-	width: 250px;
-	height: 250px;
-	margin: 1% 1% 0% 2%;
- } 
-
+.infoBlock{
+  padding-left:0px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
 }
 
-@media only screen and (max-width:548px){
-#portfolioblock div{
-	width: 250px;
-	height: 250px;
-	margin: 1% 1% 0% 1%;
- } 
+.headInfo{
+  font-size: 20px;
+}
 
-@media only screen and (max-width:538px){
-#portfolioblock div{
-	width: 300px;
-	height: 300px;
-	margin: 1% 1% 0% 18%;
- } 
+.bckgrndLi{
+  height:185px;
+  width:130px;
+  margin-left:15px;
+  margin-bottom:20px; 
+}
+
+.nameRaz{
+  font-size:11px; 
+}
+}
+
+
+@media (min-width: 381px) and (max-width: 449px) {
+.menu{
+  font-size:12px; 
+}
+
+.logo{
+  font-size: 25px;
+  margin-left: 150px;
+}
+
+.headInfo{
+  font-size: 18px;
+}
+
+.contentBlock{  
+  display: table;
+  background-color:#232629;
+  width:100%;
+  color:white; 
+}
+
+.infoBlock{
+  padding-left:10px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
+}
+
+.bckgrndLi{
+  height:150px;
+  width:100px;
+  margin-bottom:20px; 
+}
+
+.nameRaz{
+  font-size:10px; 
+}
+}
 
 
 
-@media only screen and (max-width:500px){
+@media (min-width: 350px) and (max-width: 380px) {
+.menu{
+  font-size:11px; 
+}
 
+.logo{
+  font-size: 25px;
+  margin-left: 115px;
+}
+
+.headInfo{
+  font-size: 17px;
+}
+
+.contentBlock{  
+  display: table;
+  background-color:#232629;
+  width:100%;
+  color:white; 
+}
+
+.infoBlock{
+  padding-left:0px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
+}
+
+.bckgrndLi{
+  height:147px;
+  width:100px;
+  margin-bottom:20px; 
+  margin-left:10px; 
+}
+
+.nameRaz{
+  font-size:10px; 
+}
+}
+
+
+@media (min-width: 300px) and (max-width: 349px) {
+.menu{
+  width: 80%;
+  margin-left:15%; 
+  font-size:10px; 
+}
 .linksMenu{
-	font-size:15px;
+  margin-right:20px; 
+}
+
+.headInfo{
+  font-size: 17px;
+}
+
+.logo{
+  font-size: 25px;
+  margin-left: 90px;
+}
+
+.contentBlock{  
+  display: table;
+  background-color:#232629;
+  width:100%;
+  color:white; 
+}
+
+.infoBlock{
+  padding-left:10px; 
+  margin-top:20px; 
+  padding-bottom:20px; 
+}
+
+.bckgrndLi{
+  height:150px;
+  width:100px;
+}
+
+.nameRaz{
+  font-size:10px; 
 }
 }
 
+@media (min-width: 200px) and (max-width: 300px) {
 
-
-@media only screen and (max-width:420px){
-#portfolioblock div{
-	width: 300px;
-	height: 300px;
-	margin: 1% 1% 0% 13%;
- }
-
+.menu{
+  width: 70%;
+  margin-left:10%; 
+  font-size:5px; 
+}
 .linksMenu{
-	font-size:12px;
+  margin-right:40px; 
 }
 }
-
-@media only screen and (max-width:375px){
-	#portfolioblock div{
-	width: 300px;
-	height: 300px;
-	margin: 1% 1% 0% 11%;
- }
-
-.linksMenu{
-	font-size:12px;
-}
-}
-
-@media only screen and (max-width:360px){
-#portfolioblock div{
-	width: 300px;
-	height: 300px;
-	margin: 1% 1% 0% 8%;
- } 
-
-.linksMenu a{
-	font-size:15px;
-	float: left;
-}
-}
-
-@media only screen and (max-width:340px){
-
-.linksMenu a{
-	font-size:13px;
-	float: left;
-}
-}
-
-@media only screen and (max-width:317px){
-
-.linksMenu{
-	font-size:13px;
-}
-}
-
-@media only screen and (max-width:30px){
-
-.linksMenu {
-	font-size:12px;
-}
-}
-
-
-
-
-*/
