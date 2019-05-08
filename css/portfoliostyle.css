@@ -13,7 +13,6 @@ body{
   float:right;
   width: 100%;
   background-color: #151719;
-  margin-bottom:100px; 
 }
 
 /*////////////////////////// MENU started //////////////////////////////*/
@@ -55,6 +54,18 @@ body{
 
 
 /*////////////////////////// HEADER stoped //////////////////////////////*/
+
+.headInfo{
+  width:100%;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 32px;
+  margin-top:50px; 
+  color: white;
+  margin-bottom:90px;
+  float: left; 
+}
+
 
 #portfolioblock div{
 	-moz-transition: all 0.7s ease-out;
@@ -159,6 +170,11 @@ body{
 @media (min-width: 1720px) and (max-width: 1920px) {
 .logo{ 
   font-size:50px; 
+}
+
+.headInfo{
+  margin-top:100px; 
+  margin-bottom:160px;
 }
 }
 
