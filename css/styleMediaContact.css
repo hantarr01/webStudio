@@ -1,329 +1,421 @@
-@media (min-width: 0px) and (max-width: 600px){
-  .menu-buttons h2{
-  text-align: center;
-  margin-top: 25%;
-  color:white;
-  font-size: 20px;
-  font-family: 'Alegreya', sans-serif;
+@media (min-width: 1720px) and (max-width: 1920px) {
+.logo{ 
+  font-size:50px; 
 }
-.menu-button{
-  float:right;
-  margin-right: 5%;
-  font-family: 'Alegreya Sans', sans-serif;
-  color:white;
-  font-size: 10px;
+
+.contactsR{
+  margin-top: 100px;
+  margin-bottom: 200px;
+  height: 530px;
+}
+
+.message{
+  height: 250px;
 }
 }
 
-@media (min-width: 1750px) and (max-width: 1919px){
-  .contact-form-left{
-  width:250px;
-  height:200px;
-  border-right: 1px solid black;
-  margin-left: 34%;
+@media (min-width: 1620px) and (max-width: 1719px) {
+.logo{ 
+  font-size:45px; 
 }
 
-.contact-form-right{
-  width:250px;
-  height:250px;
-  float:right;
-  margin-top: -200px;
-  margin-right: 34%;
+.contactsR{
+  margin-top: 100px;
+  margin-bottom: 200px;
+  height: 530px;
 }
 
-.contact-form-right textarea{
-  width:250px;
+.message{
+  height: 250px;
 }
 }
 
-@media (min-width: 1550px) and (max-width: 1749px){
-  .contact-form-left{
-  width:200px;
-  height:230px;
-  border-right: 1px solid black;
-  margin-left: 37%;
+@media (min-width: 1500px) and (max-width: 1620px) {
+.logo{ 
+  font-size:45px; 
 }
 
-.contact-form-right{
-  width:200px;
-  height:250px;
-  float:right;
-  margin-top: -200px;
-  margin-right: 37%;
+.contactsR{
+  margin-top: 100px;
+  margin-bottom: 190px;
+  height: 530px;
 }
 
-.contact-form-right textarea{
-  width:210px;
+.message{
+  height: 250px;
 }
 }
 
-@media (min-width: 1366px) and (max-width: 1549px){
-  .contact-form-left{
-  width:200px;
-  height:250px;
-  border-right: 1px solid black;
-  margin-left: 34%;
+@media (min-width: 1367px) and (max-width: 1500px){
+.contactsR{
+  margin-top: 80px;
+  margin-bottom: 160px;
+  height: 530px;
 }
 
-.contact-form-right{
-  width:200px;
-  height:230px;
-  float:right;
-  margin-top: -250px;
-  margin-right: 34%;
-}
-
-.contact-form-right textarea{
-  width:200px;
+.message{
+  height: 250px;
 }
 }
 
-@media (min-width: 1265px) and (max-width: 1365px){
-  .contact-form-left{
-  width:210px;
-  height:230px;
-  border-right: 1px solid black;
-  margin-left: 33%;
-}
+@media (min-width: 1250px) and (max-width: 1365px) {
 
-.contact-form-right{
-  width:210px;
-  height:250px;
-  float:right;
-  margin-top: -200px;
-  margin-right: 33%;
-}
-
-.contact-form-right textarea{
-  width:170px;
+.contactsR{
+  margin-top: 80px;
+  margin-bottom: 160px;
+  height: 450px;
 }
 }
 
-@media (min-width: 1065px) and (max-width: 1264px){
-  .contact-form-left{
-  width:210px;
-  height:230px;
-  border-right: 1px solid black;
-  margin-left: 30%;
-}
+@media (min-width: 1120px) and (max-width: 1249px) {
 
-.contact-form-right{
-  width:210px;
-  height:250px;
-  float:right;
-  margin-top: -200px;
-  margin-right: 30%;
-}
-
-.contact-form-right textarea{
-  width:210px;
-}
-}
-
-@media (min-width: 950px) and (max-width: 1064px){
-  .contact-form-left{
-  width:220px;
-  height:230px;
-  border-right: 1px solid black;
-  margin-left: 27%;
-}
-
-.contact-form-right{
-  width:220px;
-  height:250px;
-  float:right;
-  margin-top: -200px;
-  margin-right: 27%;
-}
-
-.contact-form-right textarea{
-  width:210px;
-}
-}
-
-@media (min-width: 800px) and (max-width: 949px){
-  .contact-form-left{
-  width:280px;
-  height:230px;
-  border-right: 1px solid black;
-  margin-left: 15%;
-}
-
-.contact-form-right{
-  width:280px;
-  height:250px;
-  float:right;
-  margin-top: -200px;
-  margin-right: 15%;
-}
-
-.contact-form-right textarea{
-  width:210px;
-}
-}
-
-@media (min-width: 650px) and (max-width: 799px){
-  .contact-form-left{
-  width:200px;
-  height:230px;
-  border-right: 1px solid black;
+.contactsR{
+  margin-top: 70px;
+  margin-bottom: 150px;
   margin-left: 10%;
-  border-right: none;
+  width:80%;
+  height: 450px;
+}
 }
 
-.contact-form-right{
-  width:200px;
-  height:250px;
-  float:right;
-  margin-top: -200px;
-  margin-right: 18%;
+@media (min-width: 1070px) and (max-width: 1120px) {
+.menu{
+  font-size:15px; 
 }
 
-.contact-form-right textarea{
-  width:210px;
+.headInfo{
+  font-size: 27px;
 }
-.menu-button{
-  float:right;
-  margin-right: 15%;
-  font-family: 'Alegreya Sans', sans-serif;
-  color:white;
+
+.contactsR{
+  margin-top: 70px;
+  margin-bottom: 120px;
+  margin-left: 10%;
+  width:80%;
+  height: 440px;
+}
+}
+
+@media (min-width: 1000px) and (max-width: 1070px) {
+.menu{
+  font-size:15px; 
+}
+
+.headInfo{
+  font-size: 27px;
+}
+
+.contactsR{
+  margin-top: 60px;
+  margin-bottom: 100px;
+  margin-left: 10%;
+  width:80%;
+  height: 440px;
+}
+}
+
+@media (min-width: 920px) and (max-width: 999px) {
+.menu{
+  font-size:15px; 
+}
+
+.headInfo{
+  font-size: 27px;
+}
+
+.contactsR{
+  margin-top: 60px;
+  margin-bottom: 100px;
+  margin-left: 10%;
+  width:80%;
+  height: 440px;
+}
+}
+
+@media (min-width: 850px) and (max-width: 920px) {
+.menu{
+  font-size:15px; 
+}
+
+.headInfo{
+  font-size: 27px;
+}
+
+.contactsR{
+  margin-top: 50px;
+  margin-bottom: 90px;
+  margin-left: 10%;
+  width:80%;
+  height: 440px;
+}
+}
+
+
+@media (min-width: 650px) and (max-width: 850px) {
+.menu{
+  font-size:12px; 
+}
+}
+
+@media (min-width: 750px) and (max-width: 850px) {
+.headInfo{
+  font-size: 25px;
+}
+
+.contactsR{
+  margin-top: 40px;
+  margin-bottom: 80px;
+  margin-left: 10%;
+  width:80%;
+  height: 440px;
+}
+
+.message{
+  height: 180px;
+}
+}
+
+@media (min-width: 651px) and (max-width: 750px) {
+
+.logo{
+  font-size: 28px;
+}
+
+.headInfo{
+  font-size: 20px;
+}
+
+.contactsR{
+  margin-top: 40px;
+  margin-bottom: 80px;
+  margin-left: 10%;
+  width:80%;
+  height: 430px;
+}
+
+.message{
+  height: 170px;
+}
+
+.xbutx{
+  font-size:13px; 
+  width: 200px;
+  height: 40px;  
+}
+}
+
+@media (min-width: 520px) and (max-width: 650px) {
+.menu{
+  font-size:12px; 
+}
+
+.logo{
+  font-size: 28px;
+}
+
+.headInfo{
+  font-size: 20px;
+}
+
+.contactsR{
+  margin-top: 50px;
+  margin-bottom: 90px;
+  margin-left: 10%;
+  width:80%;
+  height: 430px;
+}
+
+.message{
+  height: 170px;
+}
+
+.xbutx{
+  font-size:11px; 
+  width: 150px;
+  height: 40px;  
+}
+}
+
+
+
+@media (min-width: 450px) and (max-width: 520px) {
+
+.menu{
+  font-size:12px;
+}
+
+.logo{
+  font-size: 27px;
+  margin-left: 167px;
+}
+
+.headInfo{
+  font-size: 20px;
+}
+
+.contactsR{
+  margin-top: 40px;
+  margin-bottom: 80px;
+  margin-left: 5%;
+  width:90%;
+  height: 430px;
+}
+
+.message{
+  height: 170px;
+}
+
+.xbutx{
+  font-size:11px; 
+  width: 150px;
+  height: 40px;  
+}
+}
+
+
+@media (min-width: 381px) and (max-width: 449px) {
+.menu{
+  font-size:12px; 
+}
+
+.logo{
+  font-size: 25px;
+  margin-left: 150px;
+}
+
+.headInfo{
   font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.contactsR{
+  margin-top: 40px;
+  margin-bottom: 80px;
+  margin-left: 5%;
+  width:90%;
+  height: 430px;
+}
+
+.message{
+  height: 170px;
+}
+
+.xbutx{
+  font-size:11px; 
+  width: 150px;
+  height: 40px;   
 }
 }
 
-@media (min-width: 550px) and (max-width: 649px){
-  .contact-form-left{
-  width:180px;
-  height:230px;
-  border-right: 1px solid black;
-  margin-left: 15%;
+
+
+@media (min-width: 350px) and (max-width: 380px) {
+.menu{
+  font-size:11px; 
 }
 
-.contact-form-right{
-  width:180px;
-  height:250px;
-  float:right;
-  margin-top: -200px;
-  margin-right: 20%;
+.logo{
+  font-size: 25px;
+  margin-left: 115px;
 }
 
-.contact-form-right textarea{
-  width:170px;
-}
-.menu-button{
-  float:right;
-  margin-right: 15%;
-  font-family: 'Alegreya Sans', sans-serif;
-  color:white;
-  font-size: 18px;
+.headInfo{
+  font-size: 17px;
 }
 
-.contact-form-left h6{
+.contactsR{
+  margin-top: 30px;
+  margin-bottom: 70px;
+  margin-left: 4%;
+  width:92%;
+  height: 430px;
+}
+
+.message{
+  height: 170px;
+}
+
+.xbutx{
+  font-size:11px; 
+  width: 150px;
+  height: 40px;  
+}
+}
+
+
+@media (min-width: 300px) and (max-width: 349px) {
+.menu{
+  width: 80%;
+  margin-left:15%; 
+  font-size:10px; 
+}
+.linksMenu{
+  margin-right:20px; 
+}
+
+.logo{
+  font-size: 25px;
+  margin-left: 90px;
+}
+
+.headInfo{
   font-size: 15px;
 }
+
+.contactsR{
+  margin-top: 30px;
+  margin-bottom: 70px;
+  margin-left: 2%;
+  width:96%;
+  height: 430px;
 }
 
-@media (min-width: 500px) and (max-width: 549px){
-  .contact-form-left{
-  width:350px;
-  height:150px;
-  border-right: 0px;
-  margin-right: 20%;
-  float:right;
-  text-align: center;
+.message{
+  height: 170px;
 }
 
-.contact-form-right{
-  width:350px;
-  height:250px;
-  float:right;
-  margin-top: 25px;
-  margin-right: 20%;
-}
-
-.contact-form-right textarea{
-  width:340px;
-}
-.menu-button{
-  float:right;
-  margin-right: 15%;
-  font-family: 'Alegreya Sans', sans-serif;
-  color:white;
-  font-size: 16px;
-}
-
-.contact-form-left h6{
-  font-size: 13px;
+.xbutx{
+  font-size:11px; 
+  width: 150px;
+  height: 40px;   
 }
 }
 
-@media (min-width: 401px) and (max-width: 499px){
-
-
-  .contact-form-left{
-  width:350px;
-  height:150px;
-  border-right: 0px;
-  margin-top: 55px;
-  margin-right: 35%;
+@media (min-width: 200px) and (max-width: 300px) {
+.menu{
+  width: 70%;
+  margin-left:10%; 
+  font-size:8px; 
+}
+.linksMenu{
+  margin-right:40px; 
 }
 
-.contact-form-right{
-  width:350px;
-  height:250px;
-  float:left;
-  margin-top: 25px;
-  margin-left: 15%;
+.logo{
+  font-size: 25px;
+  margin-left: 70px;
 }
 
-.contact-form-right textarea{
-  width:340px;
-}
-.menu-button{
-  float:right;
-  margin-right: 5%;
-  font-family: 'Alegreya Sans', sans-serif;
-  color:white;
-  font-size: 20px;
-  text-align: center;
+.headInfo{
+  font-size: 15px;
 }
 
-.contact-form-left h6{
-  font-size: 13px;
-}
-}
-
-@media (min-width: 0px) and (max-width: 400px){
-
-  .contact-form-left{
-  width:350px;
-  height:150px;
-  border-right: 0px;
-  margin-top: 55px;
-  margin-right: 35%;
+.contactsR{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 0%;
+  width:100%;
+  height: 415px;
 }
 
-.contact-form-right{
-  width:350px;
-  height:250px;
-  float:left;
-  margin-top: 25px;
-  margin-left: 15%;
+
+.message{
+  height: 170px;
 }
 
-.contact-form-right textarea{
-  width:340px;
-}
-.menu-button{
-  float:right;
-  margin-right: 5%;
-  font-family: 'Alegreya Sans', sans-serif;
-  color:white;
-  font-size: 13px;
-  text-align: center;
-}
-
-.contact-form-left h6{
-  font-size: 13px;
+.xbutx{
+  font-size:10px; 
+  width: 100px;
+  height: 25px; 
 }
 }

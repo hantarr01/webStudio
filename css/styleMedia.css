@@ -364,7 +364,11 @@ span {
   margin-right:40px; 
 }
 
-h3 span {
+.headInfo{
+  font-size: 15px;
+}
+
+ span {
   font-size:10px; 
 }
 

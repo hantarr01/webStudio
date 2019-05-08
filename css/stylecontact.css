@@ -1,98 +1,106 @@
-body{
-	margin: 0;
-	padding: 0;
-	overflow-x: hidden;
+
+/*////////////////////////// HEADER started //////////////////////////////*/
+
+.HeaderBlock{
+  text-align: center;
+  display: table;
+  float:right;
+  width: 100%;
+  background-color: #151719;
+}
+
+/*////////////////////////// MENU started //////////////////////////////*/
+.menuBlock{
+  width: 100%;
 }
 
 .menu{
-	width:100%;
-	display: table;
+  margin-top:25px; 
+  float:right;
+  font-size:17px;   
 }
 
-.menu-buttons{
-	width:100vw;
-	height:50vw;
-	background-image: url(../img/contact.png);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	margin-top: -37px;
-}
-.menu-buttons h2{
-	text-align: center;
-	margin-top: 25%;
-	color:white;
-	font-family: 'Alegreya', sans-serif;
-	text-shadow: 1px 1px 3px black, 0 0 5em black;
-}
-.menu-buttons h2:hover{
-	text-shadow: 2px 2px 4px black, 0 0 6em black;
+.linksMenu:hover a{
+  color: red;
+  transition: 0.5s;
 }
 
-.menu-button{
-	float:right;
-	margin-right: 3%;
-	color:white;
-	text-shadow: 1px 1px 3px black, 0 0 5em black;
-	font-size: 20px;
-	
+.menu a{
+  color: white;
 }
 
-.menu-button:hover{
-	color:red;
-	text-shadow: 1px 1px 3px #3f3f3f, 0 0 5em #3f3f3f;
+.linksMenu{
+  text-shadow: 1px 1px 3px black, 0 0 2em black;
+  float:left; 
+  margin-right:40px; 
+  transition: 0.5s;
 }
 
-.menu-button a{
-	color:inherit;
-	text-decoration: none;
+/*////////////////////////// MENU stoped //////////////////////////////*/
+
+.logo{ 
+  font-family: 'Righteous', cursive;
+  float: left;
+  color: white; 
+  margin-left:50px; 
+  margin-top:20px; 
 }
 
-.contact{
-	width: 100%;
-	display: table;
-	background-color: #232629;
-	margin-top: -15px;
+
+/*////////////////////////// HEADER stoped //////////////////////////////*/
+
+
+/*////////////////////////// CONTENT start //////////////////////////////*/
+
+.contentBlock{  
+  display: table;
+  background-color:#232629;
+  width:100%;
+  color:white;  
 }
 
-.contact-form-left{
-	width:300px;
-	height:200px;
-	border-right: 1px solid black;
-	margin-left: 34%;
-}
-.contact h4{
-	font-family: 'Alegreya Sans SC', sans-serif;
-	color:black;
-	text-align: center;
-	letter-spacing: 1px;
-	color:white;
+.headInfo{
+  width:100%;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 32px;
+  margin-top:30px; 
 }
 
-.contact-form-left h6{
-	font-size: 18px;
-	margin-top: -15px;
-	color:red;
-}
-.contact-form-left p{
-	color:white;
-}
-.contact-form-right{
-	width:300px;
-	height:200px;
-	float:right;
-	margin-top: -200px;
-	margin-right: 34%;
-}
-.contact-form-right input{
-	width:100px;
-	margin-top: 25px;
+.contactsR{
+  float: left;
+  margin-top: 90px;
+  margin-bottom: 170px;
+  margin-left: 20%;
+  width:60%;
+  height: 450px;
 }
 
-.contact-form-right textarea{
-	width:300px;
-	margin-top: 5px;
+.message{
+  width: 100%;
+  height: 170px;
+  color: white;
 }
-/*Футер*/
+
+.inp2{
+  color: white;
+}
+
+.xbutx{
+  border:none;
+  width: 200px;
+  height: 40px;
+  color: white; 
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/*////////////////////////// CONTENT stop //////////////////////////////*/
+
+
+/*///////////////////////////////// FOOTER  /////////////////////////////////////*/
+
+
 .page-footer{
   background-color: #151719;
 }
@@ -130,10 +138,12 @@ body{
 
 .menuFooter a{
   color:white;
+  transition: 0.5s;
 }
 
 .menuFooter a:hover{
   color:red;
+  transition: 0.5s;
 }
 
 #padding{
@@ -143,3 +153,6 @@ body{
 #letSpaceHeadingFooter{
   letter-spacing: 2px;
 }
+
+
+/*///////////////////////////////// FOOTER close /////////////////////////////////////*/

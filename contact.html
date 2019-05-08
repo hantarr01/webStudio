@@ -10,6 +10,8 @@
 	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 	<link href="css/stylecontact.css" rel="stylesheet" type="text/css"> 
 	<link rel="stylesheet" type="text/css" media="all" href="css/stellarnav.css">
+
+  <link href="css/styleMediaFooter.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="css/styleMediaContact.css">
 	<link rel="stylesheet" type="text/css" href="css/styleMediaFooter">
 <!-- Шрифты -->
@@ -25,60 +27,38 @@
 
 <body>
 
-	<header>
-		<ul>
-			<li>
-				<!-- Первый блок с меню -->
-				<div class="menu">
-					<!-- Меню -->
-					<div class="menubt">
-						<a href="collective.html" class="menu-button"><li class="menu-button">Коллектив</li></a>
-						<a href="portfolio.html" class="menu-button"><li class="menu-button">Портфолио</li></a>
-						<a href="index.html" class="menu-button"><li class="menu-button">Главная</li></a>
-					</div>
-					<!-- Блок, отвечающий за картинку -->
-					<div class="menu-buttons">
-						<span>
+ <div class="HeaderBlock">
+    <ul class="menu">
+      <li class="linksMenu"><a href="index.html">Главная</a></li>
+      <li class="linksMenu"><a href="portfolio.html">Портфолио</a></li>
+      <li class="linksMenu"><a href="collective.html">Наш коллектив</a></li>
+    </ul>
+      <h4 class="logo">Tech<b style="color:red;">Shum</b></h4>
+ </div>
 
-							<br />
-							<!-- Главная надпись на картинке -->	
-							<h2><b>Свяжитесь с нами</b></h2>
-						</span>
-					</div>
-				</div>
-			</li>
-		</ul>
-	</header>
 
-	<!-- Общий блок контактов -->
-	<div class="contact">
-		<ul>
-			<li>
-				<!-- Заголовок контактов -->
-				<h4>Закажите проект</h4>
-				<!-- Левая, пояснительная часть контактов -->
-				<div class="contact-form-left">
-					<p><b>8-(962)598-58-91</b></p>
-					<h6>Позвоните и проконсультируйтесь</h6>
-					<p>Шумерля, ул. Некрасова, 62</p>
-					<h6>Наш адрес</h6>
-					<p>g16052015@mail.ru</p>
-					<h6>Напишите нам</h6>
-				</div>
-				<!-- Правая часть контактов с контактной формой -->
-				<div class="contact-form-right">
-					<input type="text" placeholder="Ваше Имя...">
-					<input type="text" placeholder="Ваш телефон...">
-					<input type="text" placeholder="Ваша почта...">
-					<textarea name="" id="" cols="30" rows="10"></textarea>
-					<button class="btn waves-effect waves-light" type="submit" name="action" style="background-color: red;">Отправить сообщение
-						<i class="material-icons right">send</i>
-					</button>
-				</div>
-				
-			</li>
-		</ul>
-	</div>
+<div class="contentBlock">
+  
+<div class="headInfo">Напишите нам сообщение</div>
+
+  <div class="contactsR">
+       
+          <input type="text" placeholder="Ваше Имя..." class="inp2">
+          <input type="tel" placeholder="Ваш телефон..." class="inp2">
+          <input type="text" placeholder="Ваша почта..." class="inp2">
+          <input type="text" placeholder="Заголовок сообщения..." class="inp2">
+
+          <textarea name="" id="" class="message"  placeholder="Ваше сообщение...">
+          </textarea>
+
+          <button type="submit" class="xbutx" style="background-color: red;">Отправить сообщение</button>
+
+        
+  </div>
+
+</div>
+
+
 <!-- Футер -->
 <footer class="page-footer">
 
@@ -134,8 +114,8 @@
                 <ul>
                   <li class="menuFooter"><a href="index.html">Главная</a></li>
                   <li class="menuFooter"><a href="portfolio.html">Портфолио</a></li>
-				  <li class="menuFooter"><a href="contact.html">Контакты</a></li>
-				  <li class="menuFooter"><a href="collective.html">Наш коллектив</a></li>
+				          <li class="menuFooter"><a href="contact.html">Обратная связь</a></li>
+				          <li class="menuFooter"><a href="collective.html">Наш коллектив</a></li>
                 </ul>
 
               </div>
@@ -144,15 +124,11 @@
 
     </div>
 
-     <div class="footer-copyright">
-
-        <div class="container">
-
-        <b>GROUP 2PC</b> © 2019 All rights reserved.
-
-        </div>
-
-     </div>
+<div class="footer-copyright">
+   <div class="container">
+   <b>TechShum</b> © 2019 All rights reserved.
+   </div>
+</div>
 
 </footer>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js "></script>
