@@ -1,114 +1,119 @@
 @media (min-width: 1720px) and (max-width: 1920px) {
-.logo{
-  margin-top: 400px;
-  margin-left:42vw;
-}
 .contentBlock{
-  height:1080px;
-  padding:250px;
+  height:750px;
+  padding-top:100px;
+  padding-bottom:0px;
 }
 
-.bckgrndLi{
-  margin-left:125px;  
+.HeaderBlock{
+  text-align: center;
+  display: table;
+  float:right;
+  width: 100%;
+  background-image: url(../img/menu1.gif);
+  background-size: 100vw 65vw;
+  background-repeat: no-repeat;
+}
+
+
+.logoTextInformation{
+  font-size:27px;
+  letter-spacing: 5px;
+  margin-bottom:26.5%; 
+}
+
+.hrInfo{
+  margin-left:92px;
 }
 
 span {
   font-size: 60px;
   margin-bottom:80px;  
 }
+
+.headInfo{
+  margin-bottom:70px;
+  margin-top:50px;  
+}
+
 }
 
 @media (min-width: 1620px) and (max-width: 1719px) {
 .logo{
-  margin-top: 325px;
-  margin-left:42vw;
-}
-
-.bckgrndLi{
-  margin-left:86px;  
+  line-height: 0.4;
+  font-size:80px; 
+  margin-top: 260px;  
 }
 
 .liHeadText{
   font-size:22px;
+}
+
+.logoTextInformation{
+  font-size:23px;
+  letter-spacing: 5px;
+  margin-bottom:26.5%; 
 }
 
 span {
   font-size: 50px;
   margin-bottom:70px;  
 }
+
+.hrInfo{
+  margin-left:92px;
+}
 }
 
-@media (min-width: 1367px) and (max-width: 1620px) {
+@media (min-width: 1400px) and (max-width: 1500px) {
 .logo{
-  margin-top: 320px;
-}
-
-.bckgrndLi{ 
-  width:270px;
-}
-
-.liHeadText{
-  font-size:20px;
+  margin-top: 200px;  
 }
 }
 
-@media (min-width: 1500px) and (max-width: 1620px) {
-.bckgrndLi{ 
-  margin-left:7.1%;
-}
-}
-
-@media (min-width: 1367px) and (max-width: 1500px) {
-
-.bckgrndLi{
-  margin-left:5%; 
-}
-}
-
-@media (min-width: 1120px) and (max-width: 1365px) {
+@media (min-width: 1367px) and (max-width: 1400px) {
 .logo{
-  margin-left:35vw;
-  margin-top: 210px;
+  margin-top: 170px;  
 }
 }
 
 @media (min-width: 1250px) and (max-width: 1365px) {
-.bckgrndLi{
-  margin-left:2%; 
-  margin-top:20px;
-  margin-bottom:0px;
-  width:270px;
-}
-
 .liHeadText{
   font-size:22px;
+}
+
+.logo{
+  margin-top: 170px;  
 }
 }
 
 @media (min-width: 1120px) and (max-width: 1249px) {
-.bckgrndLi{
-  margin-left:1.9%; 
-  margin-top:20px;
-  margin-bottom:0px;
-  width:260px;
-}
-
 .liHeadText{
   font-size:20px;
+}
+
+.logo{
+  margin-top: 150px;
+  font-size:50px; 
+}
+.logoTextInformation{
+  letter-spacing: 4px;
+  font-size: 25px;
+  line-height: 0.6;
+  margin-bottom:26%;
 }
 }
 
 @media (min-width: 850px) and (max-width: 1120px) {
 .logo{
-  margin-left:34vw;
-  margin-top: 180px;
+  margin-top: 100px;
   font-size:50px; 
 }
-
-.bckgrndLi{
-  margin-left:13%; 
-  margin-top:20px;
-  margin-bottom:0px;
+.logoTextInformation{
+  letter-spacing: 3px;
+  font-size: 22px;
+  line-height: 0.8;
+  margin-bottom:20%;
 }
 
 span {
@@ -119,65 +124,19 @@ span {
 
 @media (min-width: 650px) and (max-width: 850px) {
 .logo{
-  width:250px;
   font-size:40px;  
-  margin-top: 110px;
-  margin-left:33vw;
+  margin-top: 50px;
 }
+
+.logoTextInformation{
+  letter-spacing: 3px;
+  font-size: 18px;
+  line-height: 0.8;
+  margin-bottom:20%;
+}
+
 .menu{
   font-size:12px; 
-}
-}
-
-@media (min-width: 750px) and (max-width: 850px) {
-.bckgrndLi{
-  margin-left:8%; 
-  margin-top:20px;
-  margin-bottom:0px;
-}
-
-span {
-  font-size: 25px;
-  margin-bottom:30px;  
-}
-}
-
-@media (min-width: 650px) and (max-width: 750px) {
-.bckgrndLi{
-  margin-left:3%; 
-  margin-top:10px;
-  margin-bottom:0px;
-  height:320px;
-}
-}
-
-@media (min-width: 520px) and (max-width: 650px) {
-.logo{
-  width:170px;
-  font-size:30px; 
-  margin-top: 90px;
-}
-
-.menu{
-  font-size:13px; 
-}
-
-.bckgrndLi{
-  margin-left:22.5%;
-  margin-top:10px;
-  margin-bottom:10px;
-}
-
-span {
-  font-size: 22px;
-  margin-bottom:30px;  
-}
-}
-
-@media (min-width: 650px) and (max-width: 850px) {
-.bckgrndLi{
-  margin-bottom:0px;
-  height:300px;
 }
 
 .headInfo{
@@ -200,12 +159,44 @@ span {
 }
 }
 
-@media (min-width: 200px) and (max-width: 649px) {
-.bckgrndLi{
-  margin-bottom:0px;
-  height:250px;
+@media (min-width: 750px) and (max-width: 850px) {
+
+span {
+  font-size: 25px;
+  margin-bottom:30px;  
+}
 }
 
+@media (min-width: 520px) and (max-width: 650px) {
+
+.logo{
+  font-size:30px;  
+  margin-top: 50px;
+}
+
+.logoTextInformation{
+  letter-spacing: 2px;
+  font-size: 15px;
+  line-height: 0.6;
+  margin-bottom:20%;
+}
+
+.menu{
+  margin-top:10px; 
+  font-size:13px; 
+}
+
+.linksMenu{
+  margin-right:30px; 
+}
+
+span {
+  font-size: 22px;
+  margin-bottom:30px;  
+}
+}
+
+@media (min-width: 200px) and (max-width: 649px) {
 .headInfo{
   font-size:20px;
 }
@@ -235,13 +226,26 @@ span{
 
 @media (min-width: 450px) and (max-width: 520px) {
 .logo{
-  width:170px;
   font-size:27px; 
-  margin-top: 110px;
+  margin-top: 20px;
+}
+
+.logoTextInformation{
+  letter-spacing: 2px;
+  font-size: 15px;
+  line-height: 0.4;
+  margin-bottom:20%;
 }
 
 .menu{
+  margin-top:10px; 
+  width: 90%;
+  margin-left:10%;
   font-size:12px; 
+}
+
+.linksMenu{
+  margin-right:30px; 
 }
 
 span {
@@ -249,25 +253,37 @@ span {
   margin-bottom:50px;  
   margin-top:-70px; 
 }
-
-.bckgrndLi{
-  margin-left:17%;
-  margin-top:10px;
-  margin-bottom:10px;
-}
 }
 
 
 @media (min-width: 380px) and (max-width: 450px) {
+.HeaderBlock{
+  background-image: url(../img/menu1.gif);
+  background-size: 120vw 80vw;
+  background-repeat: no-repeat;
+}
+
 .logo{
-  width:200px;
-  font-size:20px; 
-  margin-left:25vw; 
-  margin-top: 90px;
+  font-size:20px;  
+  margin-top: 25px;
+}
+
+.logoTextInformation{
+  letter-spacing: 2px;
+  font-size: 14px;
+  line-height: 0.4;
+  margin-bottom:17%;
 }
 
 .menu{
+  margin-top:10px; 
+  width: 90%;
+  margin-left:10%;
   font-size:12px; 
+}
+
+.linksMenu{
+  margin-right:20px; 
 }
 
 span {
@@ -275,25 +291,41 @@ span {
   margin-bottom:45px;  
   margin-top:-60px; 
 }
-
-.bckgrndLi{
-  margin-left:10%;
-  margin-top:10px;
-  margin-bottom:10px;
-}
 }
 
 
 @media (min-width: 350px) and (max-width: 380px) {
+.HeaderBlock{
+  background-image: url(../img/menu1.gif);
+  background-size: 150vw 90vw;
+  background-repeat: no-repeat;
+}
+
 .logo{
-  width:200px;
-  font-size:20px; 
-  margin-left:25vw; 
-  margin-top: 75px;
+  font-size:20px;  
+  margin-top: 5px;
+}
+
+.headInfo{
+  font-size:17px;
 }
 
 .menu{
-  font-size:11px; 
+  margin-top:15px; 
+  width: 85%;
+  margin-left:15%;
+  font-size:9px; 
+}
+
+.linksMenu{
+  margin-right:20px; 
+}
+
+.logoTextInformation{
+  letter-spacing: 2px;
+  font-size: 12px;
+  line-height: 0.4;
+  margin-bottom:27%;
 }
 
 span {
@@ -301,30 +333,34 @@ span {
   margin-bottom:50px;  
   margin-top:-40px; 
 }
-
-
-.bckgrndLi{
-  margin-left:8%;
-  margin-top:10px;
-  margin-bottom:10px;
-}
 }
 
 @media (min-width: 300px) and (max-width: 349px) {
+.HeaderBlock{
+  background-image: url(../img/menu1.gif);
+  background-size: 150vw 90vw;
+  background-repeat: no-repeat;
+}
+
 .logo{
-  width:200px;
-  margin-left:20vw; 
   font-size:20px; 
-  margin-top: 75px;
+  margin-top: -13px;
+}
+
+.logoTextInformation{
+  letter-spacing: 2px;
+  font-size: 12px;
+  line-height: 0.3;
+  margin-bottom:27%;
 }
 
 .menu{
-  width: 85%;
-  margin-left:15%; 
-  font-size:7px; 
+  width: 94%;
+  margin-left:6%;  
+  font-size:9px; 
 }
 .linksMenu{
-  margin-right:20px; 
+  margin-right:15px; 
 }
 
 span {
@@ -334,52 +370,57 @@ span {
   letter-spacing: 2px;
 }
 
-.bckgrndLi{
-  margin-left:0;
-  margin-top:10px;
-  margin-bottom:10px;
+.headInfo{
+  margin-top:20px;
+  font-size: 15px;
 }
 }
 
 @media (min-width: 200px) and (max-width: 300px) {
 .HeaderBlock{
   background-image: url(../img/menu1.gif);
-  background-size: 240vw 70vw;
+  background-size: 200vw 120vw;
   background-repeat: no-repeat;
 }
 
-.logo{
-  margin-left:15vw; 
-  width:180px;
+.logo{ 
   font-size:17px; 
-  margin-top: 50px;
+  margin-top:-10px;
+}
+
+.logoTextInformation{
+  letter-spacing: 2px;
+  font-size: 12px;
+  line-height: 0.4;
+  margin-bottom:30%;
 }
 
 .menu{
+  margin-top:10px;
   width: 90%;
   margin-left:10%; 
-  font-size:5px; 
+  font-size:7px; 
 }
 .linksMenu{
-  margin-right:40px; 
+  margin-right:15px; 
 }
 
 .headInfo{
-  font-size: 15px;
+  font-size: 13px;
+}
+
+hr {
+  margin: 0.2em 0em;
 }
 
  span {
   font-size:10px; 
 }
-
-.bckgrndLi{
-  margin-left:0;
-  margin-top:10px;
-  margin-bottom:10px;
-}
 }
 
 /*media slider*/
+
+
 @media (min-width: 100px) and (max-width: 650px) {
 h3 {
   letter-spacing: 3px;

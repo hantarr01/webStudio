@@ -5,12 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+	<link rel="shortcut icon" href="fav.png" type="image/x-icon">
+
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
 	<link href="css/style.css" rel="stylesheet" type="text/css"> 
 
 	<link href="css/styleMedia.css" rel="stylesheet" type="text/css">
+	<link href="css/styleMedia2.css" rel="stylesheet" type="text/css">
 	<link href="css/styleMediaFooter.css" rel="stylesheet" type="text/css">
 
 	<link rel='stylesheet prefetch' href='https://unpkg.com/flickity@2/dist/flickity.min.css'>
@@ -28,17 +31,40 @@
 
 
 									<!-- HEADER here start  -->
-
-
  <div class="HeaderBlock">
 
-      <ul class="menu">
+<!--       <ul class="menu">
+      	<li class="linksMenu"><a href="index.html">Главная</a></li>
+		<li class="linksMenu"><a href="portfolio.html">Портфолио</a></li>
+		<li class="linksMenu"><a href="contact.html">Обратная связь</a></li>
+		<li class="linksMenu"><a href="collective.html">Наш коллектив</a></li>
+      </ul> -->
+
+  <nav class="" style="background-color: rgba(1, 1, 1, 0.1); box-shadow: none;">
+    <div class="nav-wrapper">
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li class="linksMenu"><a href="index.html">Главная</a></li>
 		<li class="linksMenu"><a href="portfolio.html">Портфолио</a></li>
 		<li class="linksMenu"><a href="contact.html">Обратная связь</a></li>
 		<li class="linksMenu"><a href="collective.html">Наш коллектив</a></li>
       </ul>
+    </div>
+  </nav>
 
-		<p><div class="logo"><a href="collective.html">TechShum</a></div></p>
+  <ul class="sidenav" id="mobile-demo">
+    	<li><a href="index.html">Главная</a></li>
+		<li><a href="portfolio.html">Портфолио</a></li>
+		<li><a href="contact.html">Обратная связь</a></li>
+		<li><a href="collective.html">Наш коллектив</a></li>
+  </ul>
+          
+
+
+		<div>
+			<p><div class="logo"><a href="collective.html">Tech<b class="shumColor">Shum</b></a></div></p>
+			<p class="logoTextInformation"><a href="collective.html">-Webstudio-</a></p>
+		</div>
 </div>
 
 
@@ -63,7 +89,7 @@
 					<span>WEB-проект</span>
 					<hr>
 					<p>Наша команда молодых и талантливых разработчиков выслушает и поможет спроектировать сайт, так</p>
-					<p> как вы желаете.</p>
+					<p><a href="" class="sliderA"> как вы желаете.</a></p>
 				</div>
 			</div>
 		</div>
@@ -81,8 +107,8 @@
 					<span>WEB-дизайн</span>
 					<hr>
 					<p>Наши дизайнеры могут реализовать дизайн который</p>
-					<p>вам точно понравится.</p>
-					<p></p>
+					<p><a href="" class="sliderA">вам точно понравится.</a></p>
+					
 				</div>
 			</div>
 		</div>
@@ -100,7 +126,7 @@
 					<span>WEB-кодинг</span>
 					<hr>
 					<p>Наши бэкенд разработчики могут установить сайт на WordPress или создать свою админку</p>
-					<p>стоит только выбрать.</p>
+					<p><a href="" class="sliderA">стоит только выбрать.</a></p>
 				</div>
 			</div>
 		</div>
@@ -117,10 +143,10 @@
 	<div class="headInfo">Почему нас выбирают</div>
 
 	<ul>
-		<li class="bckgrndLi">
+		<div  class="containerForBcli">
+		<li class="bckgrndLi2">
  			<i class="large material-icons">group</i>
- 			<p class="liHeadText">Работа напрямую</p>
- 			<hr class="hrInfo">
+ 			<p class="liHeadText">РАБОТА НА ПРЯМУЮ</p>
  			<p class="liText">Вы работаете напрямую с создателями студии. 
  			Так что мы крайне заинтересованы в том, чтобы Вы остались довольны результатом.
  			 Клиент для нас на первом месте.</p>
@@ -128,8 +154,7 @@
 		
 		<li class="bckgrndLi">
  			<i class="large material-icons">color_lens</i>
- 			<p class="liHeadText">Уникальный дизайн</p>
- 			<hr class="hrInfo">
+ 			<p class="liHeadText">УНИКАЛЬНЫЙ ДИЗАЙН</p>
  			<p class="liText">Разрабатываем только уникальный дизайн для сайтов на основе Ваших пожеланий.
  			 Данный дизайн будет направлен на решение конкретных задач.
  			 Никаких шаблонов.</p>
@@ -137,8 +162,7 @@
 
 		<li class="bckgrndLi">
  			<i class="large material-icons">work</i>
- 			<p class="liHeadText">Адекватная цена</p>
- 			<hr class="hrInfo">
+ 			<p class="liHeadText">АДЕКВАТНАЯ ЦЕНА</p>
  			<p class="liText">Ясное и четкое понимание стоимости до начала работ.
  			 Мы не хотим, чтобы Вы переплачивали за бренд "именитых" компаний.
  			 Оплата только за проделанную работу.</p>
@@ -146,12 +170,12 @@
 
 		<li class="bckgrndLi">
  			<i class="large material-icons">security</i>
- 			<p class="liHeadText">Прозрачность</p>
- 			<hr class="hrInfo">
+ 			<p class="liHeadText">ПРОЗРАЧНОСТЬ</p>
  			<p class="liText">Устанавливаем точные сроки перед началом работ
  			 и прописываем их в договоре на оказание услуг.
  			 Отчетность перед Вами после каждого этапа.</p>
  		</li>
+ 		</div>
  	</ul>
 </div>
 
@@ -194,7 +218,7 @@
 
                 <ul>
 
-                  <li><p class="letSpace">Номер нашего руководителя:<p>
+                  <li><p class="letSpace">Наш телефон:<p>
                    <p class="lineHeightFooter">8-(962)598-58-91</p>
                   </li>
 
@@ -202,7 +226,7 @@
                    <p class="lineHeightFooter">г. Шумерля, ул. Некрасова, д. 62</p>
                   </li>
 
-                  <li><p class="letSpace">Почта нашего руководителя:</p>
+                  <li><p class="letSpace">Наш почтовый ящик:</p>
                    <p class="lineHeightFooter">g16052015@mail.ru</p>
                	  </li>
 
@@ -210,22 +234,6 @@
 
               </div>
 
-        </div>
-
-        <div class="row" id="padding">
-
-        	 <div class="col l5 offset-l7 s12">
-
-                <h5 class="white-text" id="letSpaceHeadingFooter">Быстрое меню</h5>
-                <ul>
-                  <li class="menuFooter"><a href="index.html">Главная</a></li>
-                  <li class="menuFooter"><a href="portfolio.html">Портфолио</a></li>
-				  <li class="menuFooter"><a href="contact.html">Обратная связь</a></li>
-				  <li class="menuFooter"><a href="collective.html">Наш коллектив</a></li>
-                </ul>
-
-              </div>
-        	
         </div>
 
     </div>

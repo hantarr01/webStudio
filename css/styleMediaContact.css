@@ -12,6 +12,11 @@
 .message{
   height: 250px;
 }
+
+.menu{
+  margin-top:30px;
+  font-size:17px;  
+}
 }
 
 @media (min-width: 1620px) and (max-width: 1719px) {
@@ -234,6 +239,10 @@
   width: 150px;
   height: 40px;  
 }
+
+.linksMenu{
+  margin-right:30px; 
+}
 }
 
 
@@ -256,13 +265,13 @@
 .contactsR{
   margin-top: 40px;
   margin-bottom: 80px;
-  margin-left: 5%;
-  width:90%;
-  height: 430px;
+  margin-left: 10%;
+  width:80%;
+  height: 450px;
 }
 
 .message{
-  height: 170px;
+  height: 190px;
 }
 
 .xbutx{
@@ -270,17 +279,23 @@
   width: 150px;
   height: 40px;  
 }
+
+.linksMenu{
+  margin-right:30px; 
+}
 }
 
 
 @media (min-width: 381px) and (max-width: 449px) {
 .menu{
-  font-size:12px; 
+  font-size:12px;
+  width: 81%;
+  margin-left:0%;  
 }
 
 .logo{
   font-size: 25px;
-  margin-left: 150px;
+  margin-left: 132px;
 }
 
 .headInfo{
@@ -291,19 +306,23 @@
 .contactsR{
   margin-top: 40px;
   margin-bottom: 80px;
-  margin-left: 5%;
-  width:90%;
-  height: 430px;
+  margin-left: 15%;
+  width:70%;
+  height: 450px;
 }
 
 .message{
-  height: 170px;
+  height: 190px;
 }
 
 .xbutx{
   font-size:11px; 
   width: 150px;
   height: 40px;   
+}
+
+.linksMenu{
+  margin-right:30px; 
 }
 }
 
@@ -312,6 +331,8 @@
 @media (min-width: 350px) and (max-width: 380px) {
 .menu{
   font-size:11px; 
+  width: 81%;
+  margin-left:0%; 
 }
 
 .logo{
@@ -326,8 +347,8 @@
 .contactsR{
   margin-top: 30px;
   margin-bottom: 70px;
-  margin-left: 4%;
-  width:92%;
+  margin-left: 15%;
+  width:70%;
   height: 430px;
 }
 
@@ -340,13 +361,17 @@
   width: 150px;
   height: 40px;  
 }
+
+.linksMenu{
+  margin-right:30px; 
+}
 }
 
 
 @media (min-width: 300px) and (max-width: 349px) {
 .menu{
-  width: 80%;
-  margin-left:15%; 
+  width: 85%;
+  margin-left:0%; 
   font-size:10px; 
 }
 .linksMenu{
@@ -365,8 +390,8 @@
 .contactsR{
   margin-top: 30px;
   margin-bottom: 70px;
-  margin-left: 2%;
-  width:96%;
+  margin-left: 10%;
+  width:80%;
   height: 430px;
 }
 
@@ -378,6 +403,10 @@
   font-size:11px; 
   width: 150px;
   height: 40px;   
+}
+
+.linksMenu{
+  margin-right:30px; 
 }
 }
 
@@ -417,5 +446,9 @@
   font-size:10px; 
   width: 100px;
   height: 25px; 
+}
+
+.linksMenu{
+  margin-right:20px; 
 }
 }

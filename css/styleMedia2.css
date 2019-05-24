@@ -1,0 +1,502 @@
+@media (min-width: 1850px) and (max-width: 1920px) {
+
+.logo{
+  line-height: 0.5;
+  margin-top: 290px;
+  font-size:100px;  
+}
+
+.containerForBcli{
+  padding-left: 200px;
+  padding-right: 100px;
+}
+
+.bckgrndLi{
+  margin-left:100px;  
+}
+
+.logoTextInformation{
+  font-size:27px;
+  letter-spacing: 5px;
+  margin-bottom:26.5%; 
+}
+
+}
+
+@media (min-width: 1750px) and (max-width: 1850px) {
+
+.logo{
+  line-height: 0.5;
+  margin-top: 250px;
+  font-size:100px;  
+}
+
+.infoBlock{
+  padding-left:40px;
+}
+
+.containerForBcli{
+  padding-left: 130px;
+  padding-right: 100px;
+}
+
+.bckgrndLi{
+  margin-left:100px;  
+}
+
+.logoTextInformation{
+  font-size:27px;
+  letter-spacing: 5px;
+  margin-bottom:26.5%; 
+}
+}
+
+@media (min-width: 1690px) and (max-width: 1770px) {
+.containerForBcli{
+  padding-left: 130px;
+  padding-right: 100px;
+}
+
+.bckgrndLi{
+  margin-left:80px;  
+}
+}
+
+@media (min-width: 1600px) and (max-width: 1690px) {
+
+.containerForBcli{
+  padding-left: 150px;
+  padding-right: 100px;
+}
+
+.bckgrndLi{
+  margin-left:50px;  
+}
+}
+
+@media (min-width: 1531px) and (max-width: 1599px) {
+.containerForBcli{
+  padding-left: 150px;
+  padding-right: 100px;
+}
+
+.bckgrndLi{
+  margin-left:50px;  
+}
+}
+
+@media (min-width: 1510px) and (max-width: 1530px) {
+.containerForBcli{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.bckgrndLi{
+  margin-left:50px;  
+}
+}
+
+@media (min-width: 1460px) and (max-width: 1509px) {
+.containerForBcli{
+  padding-left: 6vw;
+  padding-right: 3vw;
+}
+
+.bckgrndLi{
+  margin-left:30px;  
+}
+}
+
+@media (min-width: 1400px) and (max-width: 1459px) {
+.containerForBcli{
+  padding-left: 4vw;
+  padding-right: 2vw;
+}
+
+.bckgrndLi{
+  margin-left:25px;  
+}
+}
+
+@media (min-width: 1367px) and (max-width: 1400px) {
+.containerForBcli{
+  padding-left: 4vw;
+  padding-right: 2vw;
+}
+
+.bckgrndLi{
+  margin-left:20px;  
+}
+}
+
+@media (min-width: 1320px) and (max-width: 1365px) {
+.containerForBcli{
+  padding-left: 3vw;
+  padding-right: 1vw;
+}
+
+.bckgrndLi{
+  margin-left:20px;  
+}
+}
+
+@media (min-width: 1250px) and (max-width: 1320px) {
+.containerForBcli{
+  padding-left: 15vw;
+  padding-right: 10vw;
+}
+
+
+.bckgrndLi{
+  margin-left:100px;
+  margin-bottom:10px;
+  margin-top:20px;    
+}
+
+.bckgrndLi2{
+  margin-left:100px; 
+  margin-bottom:10px;
+  margin-top:20px;   
+}
+}
+
+@media (min-width: 1170px) and (max-width: 1250px) {
+.containerForBcli{
+  padding-left: 11vw;
+  padding-right: 10vw;
+}
+
+
+.bckgrndLi{
+  margin-left:100px;
+  margin-bottom:10px;
+  margin-top:20px;    
+}
+
+.bckgrndLi2{
+  margin-left:100px; 
+  margin-bottom:10px;
+  margin-top:20px;   
+}
+}
+
+@media (min-width: 1070px) and (max-width: 1170px) {
+.containerForBcli{
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+
+.bckgrndLi{
+  margin-left:100px;
+  margin-bottom:10px;
+  margin-top:20px;    
+}
+
+.bckgrndLi2{
+  margin-left:100px; 
+  margin-bottom:10px;
+  margin-top:20px;   
+}
+}
+
+@media (min-width: 970px) and (max-width: 1070px) {
+.containerForBcli{
+  padding-left: 5vw;
+  padding-right: 10vw;
+}
+
+
+.bckgrndLi{
+  margin-left:100px;
+  margin-bottom:10px;
+  margin-top:20px;    
+}
+
+.bckgrndLi2{
+  margin-left:100px; 
+  margin-bottom:10px;
+  margin-top:20px;   
+}
+}
+
+@media (min-width: 900px) and (max-width: 970px) {
+.containerForBcli{
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.bckgrndLi{
+  margin-left:40px;
+  margin-bottom:10px;
+  margin-top:10px;    
+}
+
+.bckgrndLi2{
+  margin-left:40px; 
+  margin-bottom:10px;
+  margin-top:10px;   
+}
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+.containerForBcli{
+  padding-left: 6.5vw;
+  padding-right: 6vw;
+}
+
+.bckgrndLi{
+  margin-left:50px;
+  margin-bottom:10px;
+  margin-top:10px;    
+}
+
+.bckgrndLi2{
+  margin-left:50px; 
+  margin-bottom:10px;
+  margin-top:10px;   
+}
+}
+
+@media (min-width: 750px) and (max-width: 800px) {
+.containerForBcli{
+  padding-left: 1vw;
+  padding-right: 3vw;
+}
+
+.bckgrndLi{
+  margin-left:50px;
+  margin-bottom:10px;
+  margin-top:10px;    
+}
+
+.bckgrndLi2{
+  margin-left:50px; 
+  margin-bottom:10px;
+  margin-top:10px;   
+}
+}
+
+@media (min-width: 690px) and (max-width: 750px) {
+.containerForBcli{
+  padding-left: 0vw;
+  padding-right: 1vw;
+}
+
+.bckgrndLi{
+  height: 300px;
+  margin-left:35px;
+  margin-bottom:10px;
+  margin-top:10px;    
+}
+
+.bckgrndLi2{
+  height: 300px;
+  margin-left:35px; 
+  margin-bottom:10px;
+  margin-top:10px;   
+}
+}
+
+@media (min-width: 640px) and (max-width: 690px) {
+.containerForBcli{
+  padding-left: 1vw;
+  padding-right: 0vw;
+}
+
+.bckgrndLi{
+  height: 270px;
+  margin-left:10px;
+  margin-bottom:10px;
+  margin-top:10px;    
+}
+
+.bckgrndLi2{
+  height: 270px;
+  margin-left:10px; 
+  margin-bottom:10px;
+  margin-top:10px;   
+}
+}
+
+@media (min-width: 600px) and (max-width: 640px) {
+.containerForBcli{
+  padding-left: 0vw;
+  padding-right: 0vw;
+}
+
+.bckgrndLi{
+  height: 200px;
+  margin-left:10px;
+  margin-bottom:10px;
+  margin-top:10px;    
+}
+
+.bckgrndLi2{
+  height: 200px;
+  margin-left:10px; 
+  margin-bottom:10px;
+  margin-top:10px;   
+}
+}
+
+@media (min-width: 550px) and (max-width: 600px) {
+.containerForBcli{
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+.bckgrndLi{
+  height: 200px;
+  margin-left:10px;
+  margin-bottom:10px;
+  margin-top:10px;    
+}
+
+.bckgrndLi2{
+  height: 200px;
+  margin-left:10px; 
+  margin-bottom:10px;
+  margin-top:10px;   
+}
+}
+
+@media (min-width: 500px) and (max-width: 550px) {
+.containerForBcli{
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+.bckgrndLi{
+  height: 200px;
+  margin-left:10px;
+  margin-bottom:10px;
+  margin-top:10px;    
+}
+
+.bckgrndLi2{
+  height: 200px;
+  margin-left:10px; 
+  margin-bottom:10px;
+  margin-top:10px;   
+}
+}
+
+@media (min-width: 450px) and (max-width: 500px) {
+.containerForBcli{
+  padding-left: 18vw;
+  padding-right: 18vw;
+}
+
+.bckgrndLi{
+  height: 200px;
+  margin-bottom:10px;
+  margin-top:10px;
+  margin-left:0px;    
+}
+
+.bckgrndLi2{
+  height: 200px; 
+  margin-left:0px; 
+  margin-bottom:10px;
+  margin-top:10px;   
+}
+}
+
+@media (min-width: 400px) and (max-width: 450px) {
+.containerForBcli{
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+
+.bckgrndLi{
+  height: 200px;
+  margin-bottom:10px;
+  margin-top:10px;
+  margin-left:0px;    
+}
+
+.bckgrndLi2{
+  height: 200px; 
+  margin-left:0px; 
+  margin-bottom:10px;
+  margin-top:10px;   
+}
+}
+
+@media (min-width: 350px) and (max-width: 400px) {
+.containerForBcli{
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.bckgrndLi{
+  height: 200px;
+  margin-bottom:10px;
+  margin-top:10px;
+  margin-left:0px;    
+}
+
+.bckgrndLi2{
+  height: 200px; 
+  margin-left:0px; 
+  margin-bottom:10px;
+  margin-top:10px;   
+}
+}
+
+@media (min-width: 300px) and (max-width: 350px) {
+.containerForBcli{
+  padding-left: 30px;
+  padding-right: 0px;
+}
+
+.bckgrndLi{
+  height: 220px;
+  width: 275px;
+  margin-bottom:10px;
+  margin-top:10px;
+  margin-left:0px;    
+}
+
+.bckgrndLi2{
+  width: 275px;
+  height: 220px; 
+  margin-left:0px; 
+  margin-bottom:10px;
+  margin-top:10px;   
+}
+}
+
+@media (min-width: 250px) and (max-width: 300px) {
+.containerForBcli{
+  padding-left: 10px;
+  padding-right: 0px;
+}
+
+.bckgrndLi{
+  height: 220px;
+  width: 260px;
+  margin-bottom:10px;
+  margin-top:10px;
+  margin-left:0px;    
+}
+
+.bckgrndLi2{
+  width: 260px;
+  height: 220px; 
+  margin-left:0px; 
+  margin-bottom:10px;
+  margin-top:10px;   
+}
+}
+
+@media (min-width: 1367px) and (max-width: 1620px) {
+.logo{
+  margin-top: 220px;
+}
+
+.liHeadText{
+  font-size:20px;
+}
+}

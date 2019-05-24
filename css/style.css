@@ -16,17 +16,19 @@ body{
   background-repeat: no-repeat;
 }
 
+
+
 /*////////////////////////// MENU started //////////////////////////////*/
 .menuBlock{
   width: 100%;
 }
 
-.menu{
+/*.menu{
   margin-top:20px; 
   float:right;
   font-size:17px; 
   padding-bottom:10px;  
-}
+}*/
 
 .linksMenu:hover a{
   color: red;
@@ -38,10 +40,18 @@ body{
 }
 
 .linksMenu{
-  text-shadow: 1px 1px 3px black, 0 0 2em black;
-  float:left; 
-  margin-right:40px; 
+  /*margin-left: 40px;*/
+  text-shadow: 1px 1px 1px black, 0 0 1em black;
   transition: 0.5s;
+}
+
+#mobile-demo{
+  text-align: left;
+  background-color: #151719;
+}
+
+#mobile-demo a{
+ color:white;
 }
 
 /*////////////////////////// MENU stoped //////////////////////////////*/
@@ -50,21 +60,30 @@ body{
   letter-spacing: 2px;
   color:white;
   text-align: center;
-  transition: 0.5s;
-}
-
-.logo:hover a{
-  color: red;
-  transition: 0.5s;
 }
 .logo{
+  line-height: 0.5;
   text-shadow: 1px 1px 5px black, 0 0 3em black;
-  margin-bottom:20%; 
-  margin-left: 36vw;
-  font-size:60px; 
-  width:360px; 
+  font-size:60px;  
   font-family: 'Righteous', cursive;
-  margin-top: 255px;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.logoTextInformation{
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom:20%; 
+  text-shadow: 1px 1px 5px black, 0 0 3em black;
+  font-family: 'Righteous', cursive;
+}
+
+.logoTextInformation a{
+  color: white;
+}
+
+.shumColor{
+  color: red;
 }
 
 
@@ -84,6 +103,10 @@ body{
   max-width: 1100px;
   margin: auto;
   overflow: hidden;
+}
+
+ a{
+  color: red;
 }
 
 p {
@@ -219,24 +242,32 @@ hr {
 .bckgrndLi{
   float: left;
   margin-top:50px;
-  margin-left:30px; 
+  margin-left:25px; 
   width:300px;
   height:400px;
   margin-bottom:50px; 
   text-align: center; 
 }
 
-.hrInfo{
-  margin-left:85px;
-  margin-top:30px;
-  width: 100%;
-  height:2px;
+.containerForBcli{
+  display: table;
+  padding-left: 50px;
+  padding-right: 0px;
+}
+
+.bckgrndLi2{
+  float: left;
+  margin-top:50px; 
+  width:300px;
+  height:400px;
+  margin-bottom:50px; 
+  text-align: center; 
 }
 
 .liHeadText{
   color: #ff3333;
-  letter-spacing: 4px;
-  font-size: 25px;
+  letter-spacing: 2px;
+  font-size: 22px;
 }
 
 .headInfo{
@@ -267,6 +298,7 @@ hr {
   width:100%;
   height: 100px;
   margin-top:20px;
+  resize: none;
 }
 
 .submitFooter{
