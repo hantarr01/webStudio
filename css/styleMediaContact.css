@@ -6,7 +6,7 @@
 .contactsR{
   margin-top: 100px;
   margin-bottom: 200px;
-  height: 530px;
+  height: 680px;
 }
 
 .message{
@@ -27,7 +27,7 @@
 .contactsR{
   margin-top: 100px;
   margin-bottom: 200px;
-  height: 530px;
+  height: 680px;
 }
 
 .message{
@@ -35,7 +35,7 @@
 }
 }
 
-@media (min-width: 1500px) and (max-width: 1620px) {
+@media (min-width: 1500px) and (max-width: 1619px) {
 .logo{ 
   font-size:45px; 
 }
@@ -43,7 +43,7 @@
 .contactsR{
   margin-top: 100px;
   margin-bottom: 190px;
-  height: 530px;
+  height: 680px;
 }
 
 .message{
@@ -51,11 +51,11 @@
 }
 }
 
-@media (min-width: 1367px) and (max-width: 1500px){
+@media (min-width: 1367px) and (max-width: 1499px){
 .contactsR{
   margin-top: 80px;
   margin-bottom: 160px;
-  height: 530px;
+  height: 680px;
 }
 
 .message{
@@ -68,7 +68,7 @@
 .contactsR{
   margin-top: 80px;
   margin-bottom: 160px;
-  height: 450px;
+  height: 600px;
 }
 }
 
@@ -79,11 +79,11 @@
   margin-bottom: 150px;
   margin-left: 10%;
   width:80%;
-  height: 450px;
+  height: 590px;
 }
 }
 
-@media (min-width: 1070px) and (max-width: 1120px) {
+@media (min-width: 1070px) and (max-width: 1119px) {
 .menu{
   font-size:15px; 
 }
@@ -97,11 +97,11 @@
   margin-bottom: 120px;
   margin-left: 10%;
   width:80%;
-  height: 440px;
+  height: 580px;
 }
 }
 
-@media (min-width: 1000px) and (max-width: 1070px) {
+@media (min-width: 1000px) and (max-width: 1069px) {
 .menu{
   font-size:15px; 
 }
@@ -115,7 +115,7 @@
   margin-bottom: 100px;
   margin-left: 10%;
   width:80%;
-  height: 440px;
+  height: 580px;
 }
 }
 
@@ -133,11 +133,11 @@
   margin-bottom: 100px;
   margin-left: 10%;
   width:80%;
-  height: 440px;
+  height: 580px;
 }
 }
 
-@media (min-width: 850px) and (max-width: 920px) {
+@media (min-width: 850px) and (max-width: 919px) {
 .menu{
   font-size:15px; 
 }
@@ -151,7 +151,7 @@
   margin-bottom: 90px;
   margin-left: 10%;
   width:80%;
-  height: 440px;
+  height: 570px;
 }
 }
 
@@ -162,7 +162,7 @@
 }
 }
 
-@media (min-width: 750px) and (max-width: 850px) {
+@media (min-width: 750px) and (max-width: 849px) {
 .headInfo{
   font-size: 25px;
 }
@@ -172,7 +172,7 @@
   margin-bottom: 80px;
   margin-left: 10%;
   width:80%;
-  height: 440px;
+  height: 580px;
 }
 
 .message{
@@ -180,7 +180,7 @@
 }
 }
 
-@media (min-width: 651px) and (max-width: 750px) {
+@media (min-width: 651px) and (max-width: 749px) {
 
 .logo{
   font-size: 28px;
@@ -195,7 +195,7 @@
   margin-bottom: 80px;
   margin-left: 10%;
   width:80%;
-  height: 430px;
+  height: 570px;
 }
 
 .message{
@@ -227,7 +227,7 @@
   margin-bottom: 90px;
   margin-left: 10%;
   width:80%;
-  height: 430px;
+  height: 570px;
 }
 
 .message{
@@ -267,7 +267,7 @@
   margin-bottom: 80px;
   margin-left: 10%;
   width:80%;
-  height: 450px;
+  height: 590px;
 }
 
 .message{
@@ -308,7 +308,7 @@
   margin-bottom: 80px;
   margin-left: 15%;
   width:70%;
-  height: 450px;
+  height: 590px;
 }
 
 .message{
@@ -349,7 +349,7 @@
   margin-bottom: 70px;
   margin-left: 15%;
   width:70%;
-  height: 430px;
+  height: 580px;
 }
 
 .message{
@@ -392,7 +392,7 @@
   margin-bottom: 70px;
   margin-left: 10%;
   width:80%;
-  height: 430px;
+  height: 600px;
 }
 
 .message{
@@ -410,7 +410,7 @@
 }
 }
 
-@media (min-width: 200px) and (max-width: 300px) {
+@media (min-width: 200px) and (max-width: 299px) {
 .menu{
   width: 70%;
   margin-left:10%; 
@@ -434,9 +434,8 @@
   margin-bottom: 50px;
   margin-left: 0%;
   width:100%;
-  height: 415px;
-}
 
+}
 
 .message{
   height: 170px;

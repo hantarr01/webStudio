@@ -6,51 +6,38 @@ body{
 
 /*////////////////////////// HEADER started //////////////////////////////*/
 
-.HeaderBlock{
-  text-align: center;
-  display: table;
-  float:right;
-  width: 100%;
-  background-color: #151719;
-}
-
 /*////////////////////////// MENU started //////////////////////////////*/
-.menuBlock{
-  width: 100%;
+.Nav1Menu{
+  background-color:#151719; 
+  box-shadow: none;
 }
 
-.menu{
-  margin-top:25px; 
-  float:right;
-  font-size:17px;   
-}
-
-.linksMenu:hover a{
+.Nav1Menu a:hover{
   color: red;
   transition: 0.5s;
 }
 
-.menu a{
-  color: white;
+#mobile-demo{
+  text-align: left;
+  background-color: #232629;
 }
 
-.linksMenu{
-  text-shadow: 1px 1px 3px black, 0 0 2em black;
-  float:left; 
-  margin-right:40px; 
-  transition: 0.5s;
+#mobile-demo a{
+ color:white;
+}
+
+#mobile-demo a:hover{
+ color:red;
+ transition:0.5;
+}
+
+#logo{ 
+  font-family: 'Righteous', cursive;
+  float: left;
+  color: white;  
 }
 
 /*////////////////////////// MENU stoped //////////////////////////////*/
-
-.logo{ 
-  font-family: 'Righteous', cursive;
-  float: left;
-  color: white; 
-  margin-left:50px; 
-  margin-top:20px; 
-}
-
 
 /*////////////////////////// HEADER stoped //////////////////////////////*/
 
@@ -75,7 +62,6 @@ body{
 }
 
 .bckgrndLi{
-  height:370px;
   width:290px;
   float: left;
   margin-left:20px; 
@@ -95,7 +81,6 @@ body{
 .nameRaz{
   padding-bottom:-15px;
 }
-
 
 /*////////////////////////// CONTENT stop //////////////////////////////*/
 

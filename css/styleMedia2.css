@@ -76,23 +76,23 @@
 
 @media (min-width: 1531px) and (max-width: 1599px) {
 .containerForBcli{
-  padding-left: 150px;
+  padding-left: 100px;
   padding-right: 100px;
 }
 
 .bckgrndLi{
-  margin-left:50px;  
+  margin-left:30px;  
 }
 }
 
 @media (min-width: 1510px) and (max-width: 1530px) {
 .containerForBcli{
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .bckgrndLi{
-  margin-left:50px;  
+  margin-left:45px;  
 }
 }
 
@@ -131,7 +131,7 @@
 
 @media (min-width: 1320px) and (max-width: 1365px) {
 .containerForBcli{
-  padding-left: 3vw;
+  padding-left: 2.5vw;
   padding-right: 1vw;
 }
 
@@ -298,7 +298,7 @@
 }
 }
 
-@media (min-width: 640px) and (max-width: 690px) {
+@media (min-width: 650px) and (max-width: 690px) {
 .containerForBcli{
   padding-left: 1vw;
   padding-right: 0vw;
@@ -319,10 +319,31 @@
 }
 }
 
-@media (min-width: 600px) and (max-width: 640px) {
+@media (min-width: 630px) and (max-width: 650px) {
 .containerForBcli{
-  padding-left: 0vw;
-  padding-right: 0vw;
+  padding-left: 20vw;
+  padding-right: 10vw;
+}
+
+.bckgrndLi{
+  height: 270px;
+  margin-left:10px;
+  margin-bottom:10px;
+  margin-top:10px;    
+}
+
+.bckgrndLi2{
+  height: 270px;
+  margin-left:10px; 
+  margin-bottom:10px;
+  margin-top:10px;   
+}
+}
+
+@media (min-width: 600px) and (max-width: 630px) {
+.containerForBcli{
+  padding-left: 20vw;
+  padding-right: 10vw;
 }
 
 .bckgrndLi{

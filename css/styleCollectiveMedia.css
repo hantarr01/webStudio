@@ -9,7 +9,6 @@
   padding-bottom:100px; 
 }
 .bckgrndLi{
-  height:475px;
   width:400px;
   margin-left:30px;
   margin-bottom:30px; 
@@ -32,7 +31,6 @@
   padding-bottom:80px; 
 }
 .bckgrndLi{
-  height:430px;
   width:340px;
   margin-left:30px;
   margin-bottom:30px; 
@@ -50,7 +48,6 @@
   padding-bottom:80px; 
 }
 .bckgrndLi{
-  height:400px;
   width:290px;
   margin-left:40px;
   margin-bottom:30px; 
@@ -74,7 +71,6 @@
   padding-bottom:30px; 
 }
 .bckgrndLi{
-  height:350px;
   width:240px;
   margin-left:30px;
   margin-bottom:20px; 
@@ -88,7 +84,6 @@
   padding-bottom:30px; 
 }
 .bckgrndLi{
-  height:350px;
   width:240px;
   margin-left:30px;
   margin-bottom:20px; 
@@ -111,7 +106,6 @@
 }
 
 .bckgrndLi{
-  height:310px;
   width:230px;
 }
 }
@@ -134,7 +128,6 @@
 .bckgrndLi{
   margin-left:20px; 
   margin-bottom:10px; 
-  height:290px;
   width:210px;
 }
 }
@@ -157,7 +150,6 @@
 .bckgrndLi{
   margin-left:10px; 
   margin-bottom:10px; 
-  height:290px;
   width:210px;
 }
 }
@@ -178,7 +170,6 @@
 }
 
 .bckgrndLi{
-  height:310px;
   width:230px;
 }
 }
@@ -203,7 +194,6 @@
 }
 
 .bckgrndLi{
-  height:250px;
   width:190px;
   margin-left:30px;
   margin-bottom:20px; 
@@ -211,6 +201,12 @@
 
 .nameRaz{
   font-size:12px; 
+}
+
+.nameRazB{
+  font-size:11px; 
+  padding-bottom:4px; 
+  line-height:1.6; 
 }
 }
 
@@ -238,13 +234,18 @@
 }
 
 .bckgrndLi{
-  height:220px;
   width:160px;
   margin-bottom:20px; 
 }
 
 .nameRaz{
   font-size:12px; 
+}
+
+.nameRazB{
+  font-size:11px; 
+  padding-bottom:4px; 
+  line-height:1.6; 
 }
 }
 
@@ -275,13 +276,18 @@
 }
 
 .bckgrndLi{
-  height:200px;
   width:140px;
   margin-bottom:20px; 
 }
 
 .nameRaz{
   font-size:12px; 
+}
+
+.nameRazB{
+  font-size:11px; 
+  padding-bottom:4px; 
+  line-height:1.6; 
 }
 }
 
@@ -316,7 +322,6 @@
 }
 
 .bckgrndLi{
-  height:185px;
   width:130px;
   margin-left:15px;
   margin-bottom:20px; 
@@ -325,17 +330,18 @@
 .nameRaz{
   font-size:11px; 
 }
+
+.nameRazB{
+  font-size:10px; 
+  padding-bottom:7px; 
+  line-height:1.4; 
+}
 }
 
 
 @media (min-width: 381px) and (max-width: 449px) {
 .menu{
   font-size:12px; 
-}
-
-.logo{
-  font-size: 25px;
-  margin-left: 150px;
 }
 
 .headInfo{
@@ -350,19 +356,25 @@
 }
 
 .infoBlock{
-  padding-left:10px; 
+  padding-left:3px; 
   margin-top:30px; 
   padding-bottom:30px; 
 }
 
 .bckgrndLi{
-  height:150px;
-  width:100px;
+  width:107px;
   margin-bottom:20px; 
 }
 
 .nameRaz{
+  padding-bottom:2px; 
   font-size:10px; 
+}
+
+.nameRazB{
+  font-size:10px; 
+  padding-bottom:5px; 
+  line-height:1.4; 
 }
 }
 
@@ -404,6 +416,12 @@
 
 .nameRaz{
   font-size:10px; 
+}
+
+.nameRazB{
+  font-size:9px; 
+  padding-bottom:5px; 
+  line-height:1.4; 
 }
 }
 
@@ -448,6 +466,12 @@
 .nameRaz{
   font-size:10px; 
 }
+
+.nameRazB{
+  font-size:9px; 
+  padding-bottom:5px; 
+  line-height:1.4; 
+}
 }
 
 @media (min-width: 200px) and (max-width: 300px) {
@@ -459,5 +483,31 @@
 }
 .linksMenu{
   margin-right:40px; 
+}
+
+.nameRaz{
+  font-size:10px; 
+}
+
+.headInfo{
+  font-size: 17px;
+}
+
+.infoBlock{
+  padding-left:0px; 
+  margin-top:20px; 
+  padding-bottom:20px; 
+}
+
+.bckgrndLi{
+  height:150px;
+  width:100px;
+  margin-left:6%; 
+}
+
+.nameRazB{
+  font-size:9px; 
+  padding-bottom:5px; 
+  line-height:1.4; 
 }
 }

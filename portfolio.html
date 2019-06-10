@@ -25,17 +25,41 @@
  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 
 	<title>TechShum - Портфолио</title>
-</head>
-<body>
 
-<div class="HeaderBlock">
-    <ul class="menu">
-      <li class="linksMenu"><a href="index.html">Главная</a></li>
-      <li class="linksMenu"><a href="contact.html">Обратная связь</a></li>
-      <li class="linksMenu"><a href="collective.html">Наш коллектив</a></li>
-    </ul>
-      <h4 class="logo">Tech<b style="color:red;">Shum</b></h4>
- </div>
+</head>
+
+<body>
+ 
+<nav class="Nav1Menu">
+
+    <div class="nav-wrapper">
+
+      <div class="brand-logo" id="logo">Tech<b style="color:red;">Shum</b></div>
+
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+      <ul class="right hide-on-med-and-down">
+
+        <li class="linksMenu"><a href="index.html">Главная</a></li>
+        <li class="linksMenu"><a href="portfolio.html">Портфолио</a></li>
+        <li class="linksMenu"><a href="contact.html">Заказать проект</a></li>
+        <li class="linksMenu"><a href="collective.html">Наш коллектив</a></li>
+
+      </ul>
+
+    </div>
+
+</nav>
+
+  <ul class="sidenav" id="mobile-demo">
+
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="portfolio.html">Портфолио</a></li>
+      <li><a href="contact.html">Заказать проект</a></li>
+      <li><a href="collective.html">Наш коллектив</a></li>
+
+  </ul>
+       
 
 <div class="headInfo">Наши работы</div>
 
@@ -97,6 +121,7 @@
     		</a>
 
 		</div>
+
 </div>
 
 <footer class="page-footer">
@@ -162,5 +187,6 @@
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js "></script>
 	<script type="text/javascript" src="materialize.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+  <script type="text/javascript" src="scriptPortfolio.js"></script>
 </body>
 </html>
